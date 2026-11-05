@@ -1,0 +1,83 @@
+{
+  "rows": 21564,
+  "source_raw": "results/raw/T1_timeseries_seed4001.csv",
+  "statistics": {
+    "accel_mps2": {
+      "ci95_halfwidth": 0.0247,
+      "mean": -3.375,
+      "median": -3.25,
+      "n": 21564,
+      "std": 1.8499
+    },
+    "age_ms": {
+      "ci95_halfwidth": 6.3464,
+      "mean": 491.1111,
+      "median": 300.0,
+      "n": 21564,
+      "std": 475.4861
+    },
+    "delayed_dist_m": {
+      "ci95_halfwidth": 0.0861,
+      "mean": 26.0975,
+      "median": 29.68,
+      "n": 21564,
+      "std": 6.4487
+    },
+    "delayed_vrel_mps": {
+      "ci95_halfwidth": 0.0489,
+      "mean": 2.9685,
+      "median": 1.12,
+      "n": 21564,
+      "std": 3.6622
+    },
+    "proposed_ttc_s": {
+      "ci95_halfwidth": 1.7903,
+      "mean": 22.3195,
+      "median": 5.6442,
+      "n": 13817,
+      "std": 107.3685
+    },
+    "sim_time_s": {
+      "ci95_halfwidth": 0.0231,
+      "mean": 3.0,
+      "median": 3.0,
+      "n": 21564,
+      "std": 1.7292
+    },
+    "stale_ttc_s": {
+      "ci95_halfwidth": 1.9654,
+      "mean": 24.2754,
+      "median": 6.1989,
+      "n": 12565,
+      "std": 112.3999
+    },
+    "true_dist_m": {
+      "ci95_halfwidth": 0.1034,
+      "mean": 24.6323,
+      "median": 28.76,
+      "n": 21564,
+      "std": 7.7482
+    },
+    "true_ttc_s": {
+      "ci95_halfwidth": 1.7404,
+      "mean": 21.7498,
+      "median": 5.5227,
+      "n": 14220,
+      "std": 105.8894
+    },
+    "true_vrel_mps": {
+      "ci95_halfwidth": 0.0517,
+      "mean": 3.6309,
+      "median": 2.2,
+      "n": 21564,
+      "std": 3.8733
+    },
+    "ttc_error_s": {
+      "ci95_halfwidth": 1.7721,
+      "mean": 14.7117,
+      "median": 1.0187,
+      "n": 12452,
+      "std": 100.8898
+    }
+  }
+}

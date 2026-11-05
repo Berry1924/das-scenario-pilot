@@ -1,0 +1,36 @@
+# Notice
+
+DAS Scenario Pilot (public repository `das-scenario-pilot`)
+
+Copyright 2026 Team IGRIS07 (Team ID: 137940), SKP Engineering College, Tiruvannamalai, Tamil Nadu, India
+
+This product includes software developed by the above project team and is
+licensed to the public under the Apache License, Version 2.0 (see `LICENSE`).
+
+## License change note
+
+Earlier internal snapshots of this project were distributed under the MIT
+License. This public repository is released under the Apache License,
+Version 2.0. The Apache-2.0 text is included unmodified in `LICENSE`.
+
+## Third-party materials
+
+- This repository does not include third-party model weights, datasets,
+  fonts, photographs, externally authored papers/PDFs, or vendor SDK
+  materials. See `docs/THIRD_PARTY_LICENSES.md` for the dependency and
+  terms inventory as it is completed.
+
+- ESP32, ESP-NOW, Arduino, XGBoost, Adafruit and other product names are
+  trademarks of their respective owners. Their use here is descriptive
+  only and does not imply affiliation or endorsement.
+
+- This project uses the Meta Model API (Meta Muse / Muse Spark) through a
+  user-supplied key at runtime. That service is governed by Meta's own
+  terms; the project's Apache-2.0 license does not grant any rights in
+  Meta's API, models or weights.
+
+## Disclaimer
+
+This is an independent community/research project. It is not affiliated
+with, endorsed by, or sponsored by Meta Platforms, Inc. It is a research
+prototype and is NOT certified automotive safety equipment.

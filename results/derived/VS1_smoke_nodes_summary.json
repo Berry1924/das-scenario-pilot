@@ -1,0 +1,62 @@
+{
+  "rows": 2,
+  "source_raw": "results/raw/VS1_smoke_nodes.csv",
+  "statistics": {
+    "ack_count": {
+      "ci95_halfwidth": 12.706,
+      "mean": 1148.0,
+      "median": 1148.0,
+      "n": 2,
+      "std": 1.4142
+    },
+    "rtt_max_ms": {
+      "ci95_halfwidth": 0.1207,
+      "mean": 6.4805,
+      "median": 6.4805,
+      "n": 2,
+      "std": 0.0134
+    },
+    "rtt_mean_ms": {
+      "ci95_halfwidth": 0.0064,
+      "mean": 5.5195,
+      "median": 5.5195,
+      "n": 2,
+      "std": 0.0007
+    },
+    "rtt_median_ms": {
+      "ci95_halfwidth": 0.0064,
+      "mean": 5.5235,
+      "median": 5.5235,
+      "n": 2,
+      "std": 0.0007
+    },
+    "rtt_p95_ms": {
+      "ci95_halfwidth": 0.0699,
+      "mean": 6.1915,
+      "median": 6.1915,
+      "n": 2,
+      "std": 0.0078
+    },
+    "rtt_samples": {
+      "ci95_halfwidth": 12.706,
+      "mean": 1148.0,
+      "median": 1148.0,
+      "n": 2,
+      "std": 1.4142
+    },
+    "rx_count": {
+      "ci95_halfwidth": 6.353,
+      "mean": 1172.5,
+      "median": 1172.5,
+      "n": 2,
+      "std": 0.7071
+    },
+    "tx_count": {
+      "ci95_halfwidth": 0.0,
+      "mean": 1200.0,
+      "median": 1200.0,
+      "n": 2,
+      "std": 0.0
+    }
+  }
+}

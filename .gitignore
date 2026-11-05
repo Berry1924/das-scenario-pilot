@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Node / Web artifacts
+node_modules/
+dist/
+.firebase/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts & Binaries
+build/
+bin/
+*.elf
+*.bin
+*.hex
+*.exe
+*.o
+*.obj
+
+# Large temporary extractions
+sih26007_context_extracted.txt
+temp_inspect/
+
+# Private captures / local evidence (never publish)
+results/raw/
+results/logs/
+results/hardware/
+*.pcap
+*.pcapng
+serial_capture*
+*_raw_capture*
+*.session
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Arduino build output
+build/
+Debug/
+ipch/

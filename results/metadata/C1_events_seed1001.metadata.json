@@ -1,0 +1,52 @@
+{
+  "configuration": {
+    "cbr_definition": "airtime-occupancy approximation of simplified CSMA",
+    "density_tiers": [
+      2,
+      5,
+      10,
+      20,
+      30,
+      35,
+      50
+    ],
+    "dt_ms": 10.0,
+    "duration_s": 300.0,
+    "emergency_duration_ms": 2000.0,
+    "emergency_lambda": 0.05,
+    "event_log_policy": "seed 1001 only (per-packet); others aggregate rows",
+    "loss_prob": 0.02,
+    "modality": "SIMULATION",
+    "packet_bytes": 32,
+    "phy_rate_mbps": 1.0,
+    "policies": [
+      "fixed",
+      "adaptive"
+    ],
+    "seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ]
+  },
+  "experiment_id": "C1",
+  "finished_utc": "2026-10-28T11:33:43Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/C1_events_seed1001.csv",
+  "row_count": 644836,
+  "run_id": "C1_events_seed1001",
+  "run_number": 1,
+  "seed": 1001,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-10-28T07:55:15Z",
+  "status": "COMPLETE"
+}

@@ -1,0 +1,68 @@
+{
+  "arms": {
+    "dense": {
+      "A_baseline": {
+        "inter_delivery_gap_max_ms": 219.048,
+        "inter_delivery_gap_p95_ms": 100.0,
+        "loss_burst_max": 1.19,
+        "loss_burst_p95": 1.099
+      },
+      "B_fixed_iso": {
+        "inter_delivery_gap_max_ms": 219.048,
+        "inter_delivery_gap_p95_ms": 100.0,
+        "loss_burst_max": 1.19,
+        "loss_burst_p95": 1.099
+      },
+      "C_adapt_noiso": {
+        "inter_delivery_gap_max_ms": 565.714,
+        "inter_delivery_gap_p95_ms": 270.0,
+        "loss_burst_max": 1.095,
+        "loss_burst_p95": 1.077
+      },
+      "D_daas_full": {
+        "inter_delivery_gap_max_ms": 565.714,
+        "inter_delivery_gap_p95_ms": 270.0,
+        "loss_burst_max": 1.095,
+        "loss_burst_p95": 1.077
+      }
+    },
+    "emergency": {
+      "A_baseline": {
+        "inter_delivery_gap_max_ms": 210.0,
+        "inter_delivery_gap_p95_ms": 100.0,
+        "loss_burst_max": 1.1,
+        "loss_burst_p95": 1.038
+      },
+      "B_fixed_iso": {
+        "inter_delivery_gap_max_ms": 223.333,
+        "inter_delivery_gap_p95_ms": 100.0,
+        "loss_burst_max": 1.233,
+        "loss_burst_p95": 1.115
+      },
+      "C_adapt_noiso": {
+        "inter_delivery_gap_max_ms": 310.0,
+        "inter_delivery_gap_p95_ms": 150.0,
+        "loss_burst_max": 1.067,
+        "loss_burst_p95": 1.053
+      },
+      "D_daas_full": {
+        "inter_delivery_gap_max_ms": 305.0,
+        "inter_delivery_gap_p95_ms": 150.0,
+        "loss_burst_max": 1.1,
+        "loss_burst_p95": 1.063
+      }
+    }
+  },
+  "c1_events_seed1001_offer_continuity": {
+    "ALL_MIXED_UNSPLIT": {
+      "inter_offer_gap_mean_ms": 23.26,
+      "inter_offer_gap_p95_ms": 100.0,
+      "nodes": 50,
+      "note": "tier/policy columns empty in C1 event rows (sim_c1_density_adaptation.py:121-124); per-tier offer-continuity not computable from this file"
+    }
+  },
+  "generated_utc": "2026-10-31T16:38:16Z",
+  "modality": "SIMULATION",
+  "scope_warning": "Sender-side delivery-continuity diagnostics only; receiver identities and receiver-side arrival timestamps are not captured (world.py:222-229, world.py:242-253). NOT a formal Disconnection Time metric.",
+  "software_version": "daas-impl 1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "name": "vertical_slice_base",
+  "seed": 7001,
+  "num_vehicles": 10,
+  "duration_s": 120.0,
+  "dt_ms": 10.0,
+  "emergency_intensity": 0.05,
+  "emergency_duration_ms": 2000.0,
+  "speed_mean_mps": 8.0,
+  "speed_jitter_mps": 3.0,
+  "loss_prob": 0.02,
+  "comm_range_m": 100.0,
+  "road_length_m": 100.0,
+  "trust_gate_enabled": false,
+  "description": "Deterministic local scenario mirroring the C1 N=10 tier environment at 120 s duration: paired baseline (fixed 10 Hz, no isolation) vs DAAS-V2V (adaptive 2-20 Hz with emergency isolation). Same seed for both arms."
+}

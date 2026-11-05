@@ -1,0 +1,20 @@
+{
+  "rows": 4425,
+  "source_raw": "results/raw/ABL2X2_emergency_D_daas_full_seed8002.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0086,
+      "mean": 2.7544,
+      "median": 2.753,
+      "n": 4425,
+      "std": 0.291
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 3.7899,
+      "mean": 222.2603,
+      "median": 222.0,
+      "n": 4425,
+      "std": 128.6246
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "rows": 2400,
+  "source_raw": "results/raw/VS1_smoke_events.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0115,
+      "mean": 2.7626,
+      "median": 2.765,
+      "n": 2400,
+      "std": 0.287
+    }
+  }
+}

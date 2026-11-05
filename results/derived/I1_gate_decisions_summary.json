@@ -1,0 +1,20 @@
+{
+  "rows": 10000,
+  "source_raw": "results/raw/I1_gate_decisions.csv",
+  "statistics": {
+    "age_ms": {
+      "ci95_halfwidth": 35.1596,
+      "mean": 528.7609,
+      "median": 5.0,
+      "n": 10000,
+      "std": 1793.8551
+    },
+    "exec_time_us": {
+      "ci95_halfwidth": 0.4306,
+      "mean": 31.9356,
+      "median": 27.28,
+      "n": 10000,
+      "std": 21.9699
+    }
+  }
+}

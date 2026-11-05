@@ -1,0 +1,72 @@
+{
+  "configuration": {
+    "alarm_criterion": "estimated distance <= 25 m stopping envelope",
+    "d0_m": 60.0,
+    "dt_ms": 10.0,
+    "fnr_dist_m": 20.0,
+    "fusion_rule": "max(C_local, 0.9*C_remote)*exp(-0.005*age); local preempts near field",
+    "lambda_per_ms": 0.005,
+    "local_range_clear_m": 40.0,
+    "local_range_fog_m": 4.0,
+    "methods": [
+      "local",
+      "v2v",
+      "fusion"
+    ],
+    "modality": "SIMULATION",
+    "msg_age_ms": 100.0,
+    "seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "sigmas_m": [
+      0.5,
+      2.0,
+      5.0
+    ],
+    "speeds_mps": [
+      5.0,
+      10.0,
+      15.0
+    ],
+    "stop_dist_m": 25.0,
+    "tiers": {
+      "clear": 100.0,
+      "dense_fog": 5.0,
+      "light_dust": 50.0,
+      "moderate_fog": 20.0
+    },
+    "v2x_range_m": 50.0
+  },
+  "experiment_id": "F1",
+  "finished_utc": "2026-09-30T18:13:34Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/F1_fusion_raw.csv",
+  "row_count": 240,
+  "run_id": "F1_fusion",
+  "run_number": 1,
+  "seed": 2001,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-09-30T18:13:25Z",
+  "status": "COMPLETE"
+}

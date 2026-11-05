@@ -1,0 +1,63 @@
+{
+  "configuration": {
+    "baselines": [
+      "A_naive_volatile",
+      "B_static_hang",
+      "C_proposed"
+    ],
+    "beacon_interval_ms": 100.0,
+    "burst_lengths": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "fault_start_ms": 15000,
+    "hazard_latch_ms": 1500.0,
+    "hazard_window_ms": [
+      10000,
+      30000
+    ],
+    "loss_levels": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      1.0
+    ],
+    "modality": "SIMULATION",
+    "scenarios": [
+      "burst_loss",
+      "blackout",
+      "sensor_dropout",
+      "conflict",
+      "loss_scan"
+    ],
+    "seeds": [
+      5001,
+      5002,
+      5003,
+      5004,
+      5005
+    ],
+    "sensor_dropouts": [
+      0.0,
+      0.2
+    ],
+    "watchdog_ms": 2500.0
+  },
+  "experiment_id": "R1",
+  "finished_utc": "2026-09-30T18:12:44Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/R1_scenarios.csv",
+  "row_count": 210,
+  "run_id": "R1_scenarios",
+  "run_number": 1,
+  "seed": 5001,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-09-30T18:12:44Z",
+  "status": "COMPLETE"
+}

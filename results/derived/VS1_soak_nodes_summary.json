@@ -1,0 +1,62 @@
+{
+  "rows": 2,
+  "source_raw": "results/raw/VS1_soak_nodes.csv",
+  "statistics": {
+    "ack_count": {
+      "ci95_halfwidth": 139.766,
+      "mean": 5762.0,
+      "median": 5762.0,
+      "n": 2,
+      "std": 15.5563
+    },
+    "rtt_max_ms": {
+      "ci95_halfwidth": 0.0381,
+      "mean": 6.504,
+      "median": 6.504,
+      "n": 2,
+      "std": 0.0042
+    },
+    "rtt_mean_ms": {
+      "ci95_halfwidth": 0.0381,
+      "mean": 5.51,
+      "median": 5.51,
+      "n": 2,
+      "std": 0.0042
+    },
+    "rtt_median_ms": {
+      "ci95_halfwidth": 0.0572,
+      "mean": 5.5085,
+      "median": 5.5085,
+      "n": 2,
+      "std": 0.0064
+    },
+    "rtt_p95_ms": {
+      "ci95_halfwidth": 0.0254,
+      "mean": 6.204,
+      "median": 6.204,
+      "n": 2,
+      "std": 0.0028
+    },
+    "rtt_samples": {
+      "ci95_halfwidth": 139.766,
+      "mean": 5762.0,
+      "median": 5762.0,
+      "n": 2,
+      "std": 15.5563
+    },
+    "rx_count": {
+      "ci95_halfwidth": 120.707,
+      "mean": 5885.5,
+      "median": 5885.5,
+      "n": 2,
+      "std": 13.435
+    },
+    "tx_count": {
+      "ci95_halfwidth": 0.0,
+      "mean": 6000.0,
+      "median": 6000.0,
+      "n": 2,
+      "std": 0.0
+    }
+  }
+}

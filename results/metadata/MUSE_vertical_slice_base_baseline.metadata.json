@@ -1,0 +1,54 @@
+{
+  "configuration": {
+    "arm": "baseline",
+    "channel": {
+      "loss_prob": 0.02
+    },
+    "emergency_enabled": true,
+    "emergency_isolation": false,
+    "metrics_source": "WorldMetrics existing implementations",
+    "modality": "SIMULATION",
+    "policy": "fixed",
+    "random_reseeding": "single random.Random(seed) per arm run",
+    "scenario_hash": "df505279e1cd0ceecbdf81363b5449965c9ef5999c876c79ec3fe3409501fee5",
+    "scenario_name": "vertical_slice_base",
+    "schema_version": "1.0",
+    "seed": 7001,
+    "spark_review": {
+      "content_sha256": "",
+      "diagnostics": {},
+      "error": "",
+      "latency_ms": 0,
+      "model": "muse-spark-1.3",
+      "status": "DISABLED_NO_URL",
+      "summary": "",
+      "verdict": ""
+    },
+    "spark_role": "advisory-only; no numeric influence",
+    "world": {
+      "comm_range_m": 100.0,
+      "dt_ms": 10.0,
+      "duration_s": 120.0,
+      "emergency_duration_ms": 2000.0,
+      "emergency_lambda": 0.05,
+      "n_nodes": 10,
+      "road_length_m": 100.0,
+      "speed_jitter_mps": 3.0,
+      "speed_mean_mps": 8.0,
+      "trust_gate_enabled": false
+    }
+  },
+  "experiment_id": "MUSE",
+  "finished_utc": "2026-10-31T16:38:50Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "muse vertical slice arm",
+  "raw_csv": "results/raw/MUSE_vertical_slice_base_baseline_seed7001.csv",
+  "row_count": 12000,
+  "run_id": "MUSE_vertical_slice_base_baseline",
+  "run_number": 1,
+  "seed": 7001,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-10-31T16:38:46Z",
+  "status": "COMPLETE"
+}

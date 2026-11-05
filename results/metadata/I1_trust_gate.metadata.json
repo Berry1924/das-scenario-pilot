@@ -1,0 +1,44 @@
+{
+  "configuration": {
+    "accel_bounds": [
+      -25.0,
+      20.0
+    ],
+    "baselines": {
+      "A": "ungated (CRC only)",
+      "B": "sequence-only",
+      "C": "full multi-tier gate"
+    },
+    "classes": [
+      "stale",
+      "duplicate",
+      "invalid_sequence",
+      "impossible_speed",
+      "impossible_distance"
+    ],
+    "corpus_total": 10000,
+    "dist_max_m": 5000.0,
+    "exec_time_measurement": "host Python time.perf_counter (NOT ESP32 cycle counter)",
+    "modality": "SIMULATION",
+    "n_per_class": 1000,
+    "n_valid": 5000,
+    "speed_bounds": [
+      -30.0,
+      70.0
+    ],
+    "tau_max_ms": 500
+  },
+  "experiment_id": "I1",
+  "finished_utc": "2026-09-30T18:12:42Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/I1_gate_decisions.csv",
+  "row_count": 10000,
+  "run_id": "I1_trust_gate",
+  "run_number": 1,
+  "seed": 3001,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-09-30T18:12:42Z",
+  "status": "COMPLETE"
+}

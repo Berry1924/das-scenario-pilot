@@ -1,0 +1,90 @@
+{
+  "rows": 140,
+  "source_raw": "results/raw/C1_density_aggregates.csv",
+  "statistics": {
+    "bytes_per_s": {
+      "ci95_halfwidth": 718.8043,
+      "mean": 4912.4093,
+      "median": 3573.865,
+      "n": 140,
+      "std": 4339.2893
+    },
+    "cbr_percent": {
+      "ci95_halfwidth": 7.2258,
+      "mean": 57.0322,
+      "median": 71.2502,
+      "n": 140,
+      "std": 43.6209
+    },
+    "duration_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 300.0,
+      "median": 300.0,
+      "n": 140,
+      "std": 0.0
+    },
+    "emergency_p95_rtt_ms": {
+      "ci95_halfwidth": 0.0063,
+      "mean": 6.188,
+      "median": 6.191,
+      "n": 140,
+      "std": 0.0383
+    },
+    "emergency_pdr_percent": {
+      "ci95_halfwidth": 0.1285,
+      "mean": 97.9376,
+      "median": 97.9412,
+      "n": 140,
+      "std": 0.7759
+    },
+    "emergency_preempt_p95_ms": {
+      "ci95_halfwidth": 5.3191,
+      "mean": 57.4253,
+      "median": 54.126,
+      "n": 140,
+      "std": 32.1106
+    },
+    "n_nodes": {
+      "ci95_halfwidth": 2.7051,
+      "mean": 21.7143,
+      "median": 20.0,
+      "n": 140,
+      "std": 16.3304
+    },
+    "normal_msg_per_s": {
+      "ci95_halfwidth": 0.4455,
+      "mean": 7.9106,
+      "median": 9.9308,
+      "n": 140,
+      "std": 2.6895
+    },
+    "packets_per_min": {
+      "ci95_halfwidth": 1347.7581,
+      "mean": 9210.7671,
+      "median": 6701.0,
+      "n": 140,
+      "std": 8136.1676
+    },
+    "pdr_percent": {
+      "ci95_halfwidth": 0.0171,
+      "mean": 97.9906,
+      "median": 97.9965,
+      "n": 140,
+      "std": 0.1033
+    },
+    "rtt_mean_ms": {
+      "ci95_halfwidth": 0.0005,
+      "mean": 5.5124,
+      "median": 5.512,
+      "n": 140,
+      "std": 0.0032
+    },
+    "rtt_p95_ms": {
+      "ci95_halfwidth": 0.0009,
+      "mean": 6.1953,
+      "median": 6.195,
+      "n": 140,
+      "std": 0.0055
+    }
+  }
+}

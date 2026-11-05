@@ -1,0 +1,27 @@
+{
+  "rows": 644836,
+  "source_raw": "results/raw/C1_events_seed1001.csv",
+  "statistics": {
+    "latency_ms": {
+      "ci95_halfwidth": 0.0007,
+      "mean": 2.7559,
+      "median": 2.757,
+      "n": 644836,
+      "std": 0.2888
+    },
+    "rx_time_ms": {
+      "ci95_halfwidth": 211.3768,
+      "mean": 149904.7034,
+      "median": 149902.851,
+      "n": 644836,
+      "std": 86601.5978
+    },
+    "tx_time_ms": {
+      "ci95_halfwidth": 211.3768,
+      "mean": 149901.9475,
+      "median": 149900.0,
+      "n": 644836,
+      "std": 86601.5977
+    }
+  }
+}

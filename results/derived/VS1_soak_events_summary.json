@@ -1,0 +1,13 @@
+{
+  "rows": 12000,
+  "source_raw": "results/raw/VS1_soak_events.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0052,
+      "mean": 2.753,
+      "median": 2.751,
+      "n": 12000,
+      "std": 0.2909
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "acceptance": {
+    "csv_readable": true,
+    "duplicate_detection": true,
+    "unique_packets": true
+  },
+  "acks_generated": 11771,
+  "acks_received": 11524,
+  "csv_readable": true,
+  "duplicate_detection_ok": true,
+  "duration_s": 600.0,
+  "experiment_id": "VS1",
+  "frames_delivered": 11771,
+  "frames_offered": 12000,
+  "label": "soak",
+  "modality": "SIMULATION",
+  "normal_msg_rate_hz": 10.0,
+  "pdr_pct": 98.0917,
+  "rtt_mean_ms": 5.51,
+  "rtt_median_ms": 5.508,
+  "rtt_p95_ms": 6.204,
+  "seed": 9002,
+  "transport": "ESP-NOW-style simulated channel (NOT C-V2X/DSRC)",
+  "unique_packets": 12000
+}

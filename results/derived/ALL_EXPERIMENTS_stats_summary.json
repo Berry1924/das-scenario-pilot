@@ -1,0 +1,1275 @@
+{
+  "checksum_manifest": {
+    "files_covered": 41,
+    "mismatched": [],
+    "path": "results/raw/CHECKSUMS.sha256",
+    "verified": true
+  },
+  "files": {
+    "ABL2X2_dense_A_baseline_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0039,
+          "mean": 2.7555,
+          "median": 2.758,
+          "n": 21000,
+          "std": 0.2908
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 2.3427,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 21000,
+          "std": 173.209
+        }
+      },
+      "rows": 21000
+    },
+    "ABL2X2_dense_A_baseline_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0039,
+          "mean": 2.7545,
+          "median": 2.754,
+          "n": 21000,
+          "std": 0.2878
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 2.3427,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 21000,
+          "std": 173.209
+        }
+      },
+      "rows": 21000
+    },
+    "ABL2X2_dense_A_baseline_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0039,
+          "mean": 2.7561,
+          "median": 2.756,
+          "n": 21000,
+          "std": 0.2899
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 2.3427,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 21000,
+          "std": 173.209
+        }
+      },
+      "rows": 21000
+    },
+    "ABL2X2_dense_B_fixed_iso_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0039,
+          "mean": 2.7555,
+          "median": 2.758,
+          "n": 21000,
+          "std": 0.2908
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 2.3427,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 21000,
+          "std": 173.209
+        }
+      },
+      "rows": 21000
+    },
+    "ABL2X2_dense_B_fixed_iso_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0039,
+          "mean": 2.7545,
+          "median": 2.754,
+          "n": 21000,
+          "std": 0.2878
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 2.3427,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 21000,
+          "std": 173.209
+        }
+      },
+      "rows": 21000
+    },
+    "ABL2X2_dense_B_fixed_iso_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0039,
+          "mean": 2.7561,
+          "median": 2.756,
+          "n": 21000,
+          "std": 0.2899
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 2.3427,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 21000,
+          "std": 173.209
+        }
+      },
+      "rows": 21000
+    },
+    "ABL2X2_dense_C_adapt_noiso_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 2.7528,
+          "median": 2.75,
+          "n": 7805,
+          "std": 0.2901
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 1.4283,
+          "mean": 112.0,
+          "median": 112.0,
+          "n": 7805,
+          "std": 64.378
+        }
+      },
+      "rows": 7805
+    },
+    "ABL2X2_dense_C_adapt_noiso_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 2.7488,
+          "median": 2.742,
+          "n": 7805,
+          "std": 0.2872
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 1.4283,
+          "mean": 112.0,
+          "median": 112.0,
+          "n": 7805,
+          "std": 64.378
+        }
+      },
+      "rows": 7805
+    },
+    "ABL2X2_dense_C_adapt_noiso_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 2.7601,
+          "median": 2.764,
+          "n": 7805,
+          "std": 0.2895
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 1.4283,
+          "mean": 112.0,
+          "median": 112.0,
+          "n": 7805,
+          "std": 64.378
+        }
+      },
+      "rows": 7805
+    },
+    "ABL2X2_dense_D_daas_full_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 2.7528,
+          "median": 2.75,
+          "n": 7805,
+          "std": 0.2901
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 1.4283,
+          "mean": 112.0,
+          "median": 112.0,
+          "n": 7805,
+          "std": 64.378
+        }
+      },
+      "rows": 7805
+    },
+    "ABL2X2_dense_D_daas_full_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 2.7488,
+          "median": 2.742,
+          "n": 7805,
+          "std": 0.2872
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 1.4283,
+          "mean": 112.0,
+          "median": 112.0,
+          "n": 7805,
+          "std": 64.378
+        }
+      },
+      "rows": 7805
+    },
+    "ABL2X2_dense_D_daas_full_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 2.7601,
+          "median": 2.764,
+          "n": 7805,
+          "std": 0.2895
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 1.4283,
+          "mean": 112.0,
+          "median": 112.0,
+          "n": 7805,
+          "std": 64.378
+        }
+      },
+      "rows": 7805
+    },
+    "ABL2X2_emergency_A_baseline_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0073,
+          "mean": 2.7579,
+          "median": 2.7555,
+          "n": 6000,
+          "std": 0.2869
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 4.3831,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 6000,
+          "std": 173.2193
+        }
+      },
+      "rows": 6000
+    },
+    "ABL2X2_emergency_A_baseline_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0073,
+          "mean": 2.76,
+          "median": 2.763,
+          "n": 6000,
+          "std": 0.2877
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 4.3831,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 6000,
+          "std": 173.2193
+        }
+      },
+      "rows": 6000
+    },
+    "ABL2X2_emergency_A_baseline_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0073,
+          "mean": 2.754,
+          "median": 2.75,
+          "n": 6000,
+          "std": 0.2881
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 4.3831,
+          "mean": 300.5,
+          "median": 300.5,
+          "n": 6000,
+          "std": 173.2193
+        }
+      },
+      "rows": 6000
+    },
+    "ABL2X2_emergency_B_fixed_iso_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0072,
+          "mean": 2.7563,
+          "median": 2.753,
+          "n": 6197,
+          "std": 0.2873
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 4.4653,
+          "mean": 310.5992,
+          "median": 310.0,
+          "n": 6197,
+          "std": 179.3442
+        }
+      },
+      "rows": 6197
+    },
+    "ABL2X2_emergency_B_fixed_iso_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0072,
+          "mean": 2.7544,
+          "median": 2.7515,
+          "n": 6306,
+          "std": 0.2899
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 4.5027,
+          "mean": 316.0182,
+          "median": 316.0,
+          "n": 6306,
+          "std": 182.43
+        }
+      },
+      "rows": 6306
+    },
+    "ABL2X2_emergency_B_fixed_iso_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0072,
+          "mean": 2.7531,
+          "median": 2.746,
+          "n": 6240,
+          "std": 0.2889
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 4.4804,
+          "mean": 312.7436,
+          "median": 312.5,
+          "n": 6240,
+          "std": 180.5728
+        }
+      },
+      "rows": 6240
+    },
+    "ABL2X2_emergency_C_adapt_noiso_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0089,
+          "mean": 2.7481,
+          "median": 2.741,
+          "n": 4000,
+          "std": 0.2869
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 3.5789,
+          "mean": 200.5,
+          "median": 200.5,
+          "n": 4000,
+          "std": 115.4841
+        }
+      },
+      "rows": 4000
+    },
+    "ABL2X2_emergency_C_adapt_noiso_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.009,
+          "mean": 2.7608,
+          "median": 2.761,
+          "n": 4000,
+          "std": 0.2912
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 3.5789,
+          "mean": 200.5,
+          "median": 200.5,
+          "n": 4000,
+          "std": 115.4841
+        }
+      },
+      "rows": 4000
+    },
+    "ABL2X2_emergency_C_adapt_noiso_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.009,
+          "mean": 2.7546,
+          "median": 2.742,
+          "n": 4000,
+          "std": 0.2912
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 3.5789,
+          "mean": 200.5,
+          "median": 200.5,
+          "n": 4000,
+          "std": 115.4841
+        }
+      },
+      "rows": 4000
+    },
+    "ABL2X2_emergency_D_daas_full_seed8001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0086,
+          "mean": 2.7551,
+          "median": 2.755,
+          "n": 4269,
+          "std": 0.2879
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 3.7326,
+          "mean": 214.6144,
+          "median": 214.0,
+          "n": 4269,
+          "std": 124.4276
+        }
+      },
+      "rows": 4269
+    },
+    "ABL2X2_emergency_D_daas_full_seed8002.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0086,
+          "mean": 2.7544,
+          "median": 2.753,
+          "n": 4425,
+          "std": 0.291
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 3.7899,
+          "mean": 222.2603,
+          "median": 222.0,
+          "n": 4425,
+          "std": 128.6246
+        }
+      },
+      "rows": 4425
+    },
+    "ABL2X2_emergency_D_daas_full_seed8003.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0087,
+          "mean": 2.7524,
+          "median": 2.744,
+          "n": 4214,
+          "std": 0.2876
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 3.7171,
+          "mean": 212.0088,
+          "median": 211.0,
+          "n": 4214,
+          "std": 123.1114
+        }
+      },
+      "rows": 4214
+    },
+    "C1_density_aggregates.csv": {
+      "columns_stats": {
+        "bytes_per_s": {
+          "ci95_halfwidth": 718.8043,
+          "mean": 4912.4093,
+          "median": 3573.865,
+          "n": 140,
+          "std": 4339.2893
+        },
+        "cbr_percent": {
+          "ci95_halfwidth": 7.2258,
+          "mean": 57.0322,
+          "median": 71.2502,
+          "n": 140,
+          "std": 43.6209
+        },
+        "duration_s": {
+          "ci95_halfwidth": 0.0,
+          "mean": 300.0,
+          "median": 300.0,
+          "n": 140,
+          "std": 0.0
+        },
+        "emergency_p95_rtt_ms": {
+          "ci95_halfwidth": 0.0063,
+          "mean": 6.188,
+          "median": 6.191,
+          "n": 140,
+          "std": 0.0383
+        },
+        "emergency_pdr_percent": {
+          "ci95_halfwidth": 0.1285,
+          "mean": 97.9376,
+          "median": 97.9412,
+          "n": 140,
+          "std": 0.7759
+        },
+        "emergency_preempt_p95_ms": {
+          "ci95_halfwidth": 5.3191,
+          "mean": 57.4253,
+          "median": 54.126,
+          "n": 140,
+          "std": 32.1106
+        },
+        "n_nodes": {
+          "ci95_halfwidth": 2.7051,
+          "mean": 21.7143,
+          "median": 20.0,
+          "n": 140,
+          "std": 16.3304
+        },
+        "normal_msg_per_s": {
+          "ci95_halfwidth": 0.4455,
+          "mean": 7.9106,
+          "median": 9.9308,
+          "n": 140,
+          "std": 2.6895
+        },
+        "packets_per_min": {
+          "ci95_halfwidth": 1347.7581,
+          "mean": 9210.7671,
+          "median": 6701.0,
+          "n": 140,
+          "std": 8136.1676
+        },
+        "pdr_percent": {
+          "ci95_halfwidth": 0.0171,
+          "mean": 97.9906,
+          "median": 97.9965,
+          "n": 140,
+          "std": 0.1033
+        },
+        "rtt_mean_ms": {
+          "ci95_halfwidth": 0.0005,
+          "mean": 5.5124,
+          "median": 5.512,
+          "n": 140,
+          "std": 0.0032
+        },
+        "rtt_p95_ms": {
+          "ci95_halfwidth": 0.0009,
+          "mean": 6.1953,
+          "median": 6.195,
+          "n": 140,
+          "std": 0.0055
+        }
+      },
+      "rows": 140
+    },
+    "C1_events_seed1001.csv": {
+      "columns_stats": {
+        "latency_ms": {
+          "ci95_halfwidth": 0.0007,
+          "mean": 2.7559,
+          "median": 2.757,
+          "n": 644836,
+          "std": 0.2888
+        },
+        "rx_time_ms": {
+          "ci95_halfwidth": 211.3768,
+          "mean": 149904.7034,
+          "median": 149902.851,
+          "n": 644836,
+          "std": 86601.5978
+        },
+        "tx_time_ms": {
+          "ci95_halfwidth": 211.3768,
+          "mean": 149901.9475,
+          "median": 149900.0,
+          "n": 644836,
+          "std": 86601.5977
+        }
+      },
+      "rows": 644836
+    },
+    "F1_fusion_raw.csv": {
+      "columns_stats": {
+        "alarm_toggles": {
+          "ci95_halfwidth": 0.2829,
+          "mean": 2.15,
+          "median": 1.0,
+          "n": 240,
+          "std": 2.2357
+        },
+        "approach_speed_mps": {
+          "ci95_halfwidth": 0.5101,
+          "mean": 9.75,
+          "median": 10.0,
+          "n": 240,
+          "std": 4.0318
+        },
+        "lead_time_s": {
+          "ci95_halfwidth": 0.2179,
+          "mean": 2.7866,
+          "median": 2.5,
+          "n": 240,
+          "std": 1.7226
+        },
+        "noise_sigma_m": {
+          "ci95_halfwidth": 0.2375,
+          "mean": 2.3,
+          "median": 2.0,
+          "n": 240,
+          "std": 1.8774
+        },
+        "v2v_in_range": {
+          "ci95_halfwidth": 3.9366,
+          "mean": 68.85,
+          "median": 55.0,
+          "n": 240,
+          "std": 31.1153
+        },
+        "valid_info_fraction": {
+          "ci95_halfwidth": 0.0166,
+          "mean": 0.3818,
+          "median": 0.4616,
+          "n": 240,
+          "std": 0.1309
+        },
+        "visibility_m": {
+          "ci95_halfwidth": 4.6013,
+          "mean": 43.75,
+          "median": 35.0,
+          "n": 240,
+          "std": 36.3689
+        },
+        "warning_distance_m": {
+          "ci95_halfwidth": 0.998,
+          "mean": 22.1285,
+          "median": 24.95,
+          "n": 240,
+          "std": 7.8885
+        }
+      },
+      "rows": 240
+    },
+    "I1_gate_decisions.csv": {
+      "columns_stats": {
+        "age_ms": {
+          "ci95_halfwidth": 35.1596,
+          "mean": 528.7609,
+          "median": 5.0,
+          "n": 10000,
+          "std": 1793.8551
+        },
+        "exec_time_us": {
+          "ci95_halfwidth": 0.4306,
+          "mean": 31.9356,
+          "median": 27.28,
+          "n": 10000,
+          "std": 21.9699
+        }
+      },
+      "rows": 10000
+    },
+    "MUSE_vertical_slice_base_baseline_seed7001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0051,
+          "mean": 2.7557,
+          "median": 2.757,
+          "n": 12000,
+          "std": 0.2873
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 6.1983,
+          "mean": 600.5,
+          "median": 600.5,
+          "n": 12000,
+          "std": 346.4245
+        }
+      },
+      "rows": 12000
+    },
+    "MUSE_vertical_slice_base_daas_v2v_seed7001.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0063,
+          "mean": 2.7535,
+          "median": 2.753,
+          "n": 8081,
+          "std": 0.2885
+        },
+        "packet_seq": {
+          "ci95_halfwidth": 5.0902,
+          "mean": 404.6447,
+          "median": 405.0,
+          "n": 8081,
+          "std": 233.4581
+        }
+      },
+      "rows": 8081
+    },
+    "R1_scenarios.csv": {
+      "columns_stats": {
+        "both_degraded_pct": {
+          "ci95_halfwidth": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 210,
+          "std": 0.0
+        },
+        "decision_coverage_pct": {
+          "ci95_halfwidth": 3.4848,
+          "mean": 92.6147,
+          "median": 100.0,
+          "n": 210,
+          "std": 25.7647
+        },
+        "duration_ms": {
+          "ci95_halfwidth": 0.0,
+          "mean": 60000.0,
+          "median": 60000.0,
+          "n": 210,
+          "std": 0.0
+        },
+        "fallback_latency_ms": {
+          "ci95_halfwidth": 0.0,
+          "mean": 2510.0,
+          "median": 2510.0,
+          "n": 10,
+          "std": 0.0
+        },
+        "fallback_triggered": {
+          "ci95_halfwidth": 0.0561,
+          "mean": 0.219,
+          "median": 0.0,
+          "n": 210,
+          "std": 0.4146
+        },
+        "false_clear_count": {
+          "ci95_halfwidth": 1.4473,
+          "mean": 3.4286,
+          "median": 0.0,
+          "n": 210,
+          "std": 10.7007
+        },
+        "full_pct": {
+          "ci95_halfwidth": 3.4842,
+          "mean": 92.599,
+          "median": 99.983,
+          "n": 210,
+          "std": 25.7604
+        },
+        "ghost_warning_ms": {
+          "ci95_halfwidth": 1840.7222,
+          "mean": 9742.1429,
+          "median": 1490.0,
+          "n": 210,
+          "std": 13609.4893
+        },
+        "packets_lost": {
+          "ci95_halfwidth": 22.358,
+          "mean": 96.4,
+          "median": 7.5,
+          "n": 210,
+          "std": 165.3051
+        },
+        "packets_rx": {
+          "ci95_halfwidth": 22.358,
+          "mean": 503.6,
+          "median": 592.5,
+          "n": 210,
+          "std": 165.3051
+        },
+        "recovery_latency_ms": {
+          "ci95_halfwidth": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "n": 10,
+          "std": 0.0
+        },
+        "sensor_degraded_pct": {
+          "ci95_halfwidth": 0.0013,
+          "mean": 0.0012,
+          "median": 0.0,
+          "n": 210,
+          "std": 0.0099
+        },
+        "v2v_degraded_pct": {
+          "ci95_halfwidth": 3.4842,
+          "mean": 7.3829,
+          "median": 0.0,
+          "n": 210,
+          "std": 25.7607
+        },
+        "warning_dropout_ms": {
+          "ci95_halfwidth": 723.4377,
+          "mean": 2215.0,
+          "median": 0.0,
+          "n": 210,
+          "std": 5348.7794
+        }
+      },
+      "rows": 210
+    },
+    "T1_age_rmse.csv": {
+      "columns_stats": {
+        "accel_mps2": {
+          "ci95_halfwidth": 0.0855,
+          "mean": -3.375,
+          "median": -3.25,
+          "n": 1800,
+          "std": 1.8503
+        },
+        "age_ms": {
+          "ci95_halfwidth": 21.9719,
+          "mean": 491.1111,
+          "median": 300.0,
+          "n": 1800,
+          "std": 475.6072
+        },
+        "false_clear_share": {
+          "ci95_halfwidth": 0.0023,
+          "mean": 0.0141,
+          "median": 0.0,
+          "n": 1800,
+          "std": 0.0492
+        },
+        "headway_m": {
+          "ci95_halfwidth": 0.9427,
+          "mean": 52.8,
+          "median": 50.0,
+          "n": 1800,
+          "std": 20.4057
+        },
+        "max_abs_err_s": {
+          "ci95_halfwidth": 12.4327,
+          "mean": 96.826,
+          "median": 2.2221,
+          "n": 1800,
+          "std": 269.1192
+        },
+        "n_eval_steps": {
+          "ci95_halfwidth": 5.1549,
+          "mean": 205.6533,
+          "median": 233.0,
+          "n": 1800,
+          "std": 111.5836
+        },
+        "ttc_mae_s": {
+          "ci95_halfwidth": 0.2503,
+          "mean": 3.0935,
+          "median": 0.6995,
+          "n": 1800,
+          "std": 5.4173
+        },
+        "ttc_rmse_s": {
+          "ci95_halfwidth": 0.9606,
+          "mean": 8.8467,
+          "median": 0.8547,
+          "n": 1800,
+          "std": 20.7934
+        },
+        "warn_delay_ms_proposed": {
+          "ci95_halfwidth": 12.7436,
+          "mean": 111.5152,
+          "median": 50.0,
+          "n": 561,
+          "std": 153.9991
+        },
+        "warn_delay_ms_stale": {
+          "ci95_halfwidth": 39.3264,
+          "mean": 377.037,
+          "median": 200.0,
+          "n": 459,
+          "std": 429.8679
+        }
+      },
+      "rows": 1800
+    },
+    "T1_timeseries_seed4001.csv": {
+      "columns_stats": {
+        "accel_mps2": {
+          "ci95_halfwidth": 0.0247,
+          "mean": -3.375,
+          "median": -3.25,
+          "n": 21564,
+          "std": 1.8499
+        },
+        "age_ms": {
+          "ci95_halfwidth": 6.3464,
+          "mean": 491.1111,
+          "median": 300.0,
+          "n": 21564,
+          "std": 475.4861
+        },
+        "delayed_dist_m": {
+          "ci95_halfwidth": 0.0861,
+          "mean": 26.0975,
+          "median": 29.68,
+          "n": 21564,
+          "std": 6.4487
+        },
+        "delayed_vrel_mps": {
+          "ci95_halfwidth": 0.0489,
+          "mean": 2.9685,
+          "median": 1.12,
+          "n": 21564,
+          "std": 3.6622
+        },
+        "proposed_ttc_s": {
+          "ci95_halfwidth": 1.7903,
+          "mean": 22.3195,
+          "median": 5.6442,
+          "n": 13817,
+          "std": 107.3685
+        },
+        "sim_time_s": {
+          "ci95_halfwidth": 0.0231,
+          "mean": 3.0,
+          "median": 3.0,
+          "n": 21564,
+          "std": 1.7292
+        },
+        "stale_ttc_s": {
+          "ci95_halfwidth": 1.9654,
+          "mean": 24.2754,
+          "median": 6.1989,
+          "n": 12565,
+          "std": 112.3999
+        },
+        "true_dist_m": {
+          "ci95_halfwidth": 0.1034,
+          "mean": 24.6323,
+          "median": 28.76,
+          "n": 21564,
+          "std": 7.7482
+        },
+        "true_ttc_s": {
+          "ci95_halfwidth": 1.7404,
+          "mean": 21.7498,
+          "median": 5.5227,
+          "n": 14220,
+          "std": 105.8894
+        },
+        "true_vrel_mps": {
+          "ci95_halfwidth": 0.0517,
+          "mean": 3.6309,
+          "median": 2.2,
+          "n": 21564,
+          "std": 3.8733
+        },
+        "ttc_error_s": {
+          "ci95_halfwidth": 1.7721,
+          "mean": 14.7117,
+          "median": 1.0187,
+          "n": 12452,
+          "std": 100.8898
+        }
+      },
+      "rows": 21564
+    },
+    "VS1_smoke_events.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0115,
+          "mean": 2.7626,
+          "median": 2.765,
+          "n": 2400,
+          "std": 0.287
+        }
+      },
+      "rows": 2400
+    },
+    "VS1_smoke_nodes.csv": {
+      "columns_stats": {
+        "ack_count": {
+          "ci95_halfwidth": 12.706,
+          "mean": 1148.0,
+          "median": 1148.0,
+          "n": 2,
+          "std": 1.4142
+        },
+        "rtt_max_ms": {
+          "ci95_halfwidth": 0.1207,
+          "mean": 6.4805,
+          "median": 6.4805,
+          "n": 2,
+          "std": 0.0134
+        },
+        "rtt_mean_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 5.5195,
+          "median": 5.5195,
+          "n": 2,
+          "std": 0.0007
+        },
+        "rtt_median_ms": {
+          "ci95_halfwidth": 0.0064,
+          "mean": 5.5235,
+          "median": 5.5235,
+          "n": 2,
+          "std": 0.0007
+        },
+        "rtt_p95_ms": {
+          "ci95_halfwidth": 0.0699,
+          "mean": 6.1915,
+          "median": 6.1915,
+          "n": 2,
+          "std": 0.0078
+        },
+        "rtt_samples": {
+          "ci95_halfwidth": 12.706,
+          "mean": 1148.0,
+          "median": 1148.0,
+          "n": 2,
+          "std": 1.4142
+        },
+        "rx_count": {
+          "ci95_halfwidth": 6.353,
+          "mean": 1172.5,
+          "median": 1172.5,
+          "n": 2,
+          "std": 0.7071
+        },
+        "tx_count": {
+          "ci95_halfwidth": 0.0,
+          "mean": 1200.0,
+          "median": 1200.0,
+          "n": 2,
+          "std": 0.0
+        }
+      },
+      "rows": 2
+    },
+    "VS1_soak_events.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0052,
+          "mean": 2.753,
+          "median": 2.751,
+          "n": 12000,
+          "std": 0.2909
+        }
+      },
+      "rows": 12000
+    },
+    "VS1_soak_nodes.csv": {
+      "columns_stats": {
+        "ack_count": {
+          "ci95_halfwidth": 139.766,
+          "mean": 5762.0,
+          "median": 5762.0,
+          "n": 2,
+          "std": 15.5563
+        },
+        "rtt_max_ms": {
+          "ci95_halfwidth": 0.0381,
+          "mean": 6.504,
+          "median": 6.504,
+          "n": 2,
+          "std": 0.0042
+        },
+        "rtt_mean_ms": {
+          "ci95_halfwidth": 0.0381,
+          "mean": 5.51,
+          "median": 5.51,
+          "n": 2,
+          "std": 0.0042
+        },
+        "rtt_median_ms": {
+          "ci95_halfwidth": 0.0572,
+          "mean": 5.5085,
+          "median": 5.5085,
+          "n": 2,
+          "std": 0.0064
+        },
+        "rtt_p95_ms": {
+          "ci95_halfwidth": 0.0254,
+          "mean": 6.204,
+          "median": 6.204,
+          "n": 2,
+          "std": 0.0028
+        },
+        "rtt_samples": {
+          "ci95_halfwidth": 139.766,
+          "mean": 5762.0,
+          "median": 5762.0,
+          "n": 2,
+          "std": 15.5563
+        },
+        "rx_count": {
+          "ci95_halfwidth": 120.707,
+          "mean": 5885.5,
+          "median": 5885.5,
+          "n": 2,
+          "std": 13.435
+        },
+        "tx_count": {
+          "ci95_halfwidth": 0.0,
+          "mean": 6000.0,
+          "median": 6000.0,
+          "n": 2,
+          "std": 0.0
+        }
+      },
+      "rows": 2
+    },
+    "VS2_aggregates.csv": {
+      "columns_stats": {
+        "duration_s": {
+          "ci95_halfwidth": 0.0,
+          "mean": 120.0,
+          "median": 120.0,
+          "n": 15,
+          "std": 0.0
+        },
+        "emergency_frames_delivered": {
+          "ci95_halfwidth": 38.8918,
+          "mean": 110.9333,
+          "median": 98.0,
+          "n": 15,
+          "std": 70.2226
+        },
+        "emergency_frames_offered": {
+          "ci95_halfwidth": 39.8645,
+          "mean": 113.3333,
+          "median": 100.0,
+          "n": 15,
+          "std": 71.9788
+        },
+        "emergency_msg_rate_hz": {
+          "ci95_halfwidth": 3.9553,
+          "mean": 12.2927,
+          "median": 10.0,
+          "n": 15,
+          "std": 7.1416
+        },
+        "emergency_pdr_pct": {
+          "ci95_halfwidth": 0.8219,
+          "mean": 97.8377,
+          "median": 98.0,
+          "n": 15,
+          "std": 1.4839
+        },
+        "emergency_preempt_mean_ms": {
+          "ci95_halfwidth": 24.3379,
+          "mean": 51.7208,
+          "median": 41.211,
+          "n": 15,
+          "std": 43.9443
+        },
+        "emergency_preempt_p95_ms": {
+          "ci95_halfwidth": 35.7569,
+          "mean": 85.4065,
+          "median": 80.354,
+          "n": 15,
+          "std": 64.5622
+        },
+        "emergency_rtt_mean_ms": {
+          "ci95_halfwidth": 0.025,
+          "mean": 5.5317,
+          "median": 5.529,
+          "n": 15,
+          "std": 0.0451
+        },
+        "emergency_rtt_p95_ms": {
+          "ci95_halfwidth": 0.0443,
+          "mean": 6.1811,
+          "median": 6.205,
+          "n": 15,
+          "std": 0.08
+        },
+        "frames_delivered": {
+          "ci95_halfwidth": 3159.0033,
+          "mean": 15726.7333,
+          "median": 11907.0,
+          "n": 15,
+          "std": 5703.8541
+        },
+        "frames_offered": {
+          "ci95_halfwidth": 3224.4843,
+          "mean": 16046.0,
+          "median": 12150.0,
+          "n": 15,
+          "std": 5822.0858
+        },
+        "n_nodes": {
+          "ci95_halfwidth": 0.0,
+          "mean": 20.0,
+          "median": 20.0,
+          "n": 15,
+          "std": 0.0
+        },
+        "normal_frames_delivered": {
+          "ci95_halfwidth": 3162.4607,
+          "mean": 15615.8,
+          "median": 11731.0,
+          "n": 15,
+          "std": 5710.0968
+        },
+        "normal_frames_offered": {
+          "ci95_halfwidth": 3228.1111,
+          "mean": 15932.6667,
+          "median": 11960.0,
+          "n": 15,
+          "std": 5828.6343
+        },
+        "normal_msg_rate_hz": {
+          "ci95_halfwidth": 1.3451,
+          "mean": 6.6386,
+          "median": 4.9833,
+          "n": 15,
+          "std": 2.4286
+        },
+        "normal_pdr_pct": {
+          "ci95_halfwidth": 0.0503,
+          "mean": 98.0162,
+          "median": 98.0251,
+          "n": 15,
+          "std": 0.0909
+        },
+        "normal_rtt_mean_ms": {
+          "ci95_halfwidth": 0.0022,
+          "mean": 5.5123,
+          "median": 5.513,
+          "n": 15,
+          "std": 0.004
+        },
+        "normal_rtt_p95_ms": {
+          "ci95_halfwidth": 0.0025,
+          "mean": 6.1933,
+          "median": 6.192,
+          "n": 15,
+          "std": 0.0046
+        },
+        "pdr_pct": {
+          "ci95_halfwidth": 0.0513,
+          "mean": 98.0149,
+          "median": 98.0167,
+          "n": 15,
+          "std": 0.0926
+        }
+      },
+      "rows": 15
+    },
+    "VS2_events_seed9101.csv": {
+      "columns_stats": {
+        "one_way_delay_ms": {
+          "ci95_halfwidth": 0.0037,
+          "mean": 2.759,
+          "median": 2.761,
+          "n": 24000,
+          "std": 0.2893
+        }
+      },
+      "rows": 24000
+    },
+    "VS6_timeline.csv": {
+      "columns_stats": {
+        "separation_m": {
+          "ci95_halfwidth": 1.5795,
+          "mean": 10.1607,
+          "median": 22.55,
+          "n": 1600,
+          "std": 32.2345
+        },
+        "ttc_s": {
+          "ci95_halfwidth": 4.6721,
+          "mean": 12.0392,
+          "median": 2.62,
+          "n": 525,
+          "std": 54.6182
+        }
+      },
+      "rows": 1600
+    }
+  },
+  "generated_for": "REQ-06 statistical synthesis"
+}

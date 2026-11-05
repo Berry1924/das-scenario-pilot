@@ -1,0 +1,628 @@
+{
+  "duration_s": 60.0,
+  "experiment_id": "ABL2X2",
+  "modality": "SIMULATION",
+  "scenarios": {
+    "dense": {
+      "A_baseline": {
+        "acks_generated": {
+          "mean": 701352,
+          "n": 3,
+          "std": 661.9094
+        },
+        "acks_received": {
+          "mean": 687243.3333,
+          "n": 3,
+          "std": 593.4057
+        },
+        "bytes_per_s": {
+          "mean": 11200.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_offered_per_s": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "emergency_pdr_percent": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "frames_delivered": {
+          "mean": 20628,
+          "n": 3,
+          "std": 19.4679
+        },
+        "frames_offered": {
+          "mean": 21000,
+          "n": 3,
+          "std": 0.0
+        },
+        "normal_msg_per_s": {
+          "mean": 10.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "packets_per_min": {
+          "mean": 21000.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "pdr_percent": {
+          "mean": 98.2286,
+          "n": 3,
+          "std": 0.0927
+        },
+        "rtt_mean_ms": {
+          "mean": 5.5103,
+          "n": 3,
+          "std": 0.0015
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1957,
+          "n": 3,
+          "std": 0.0045
+        }
+      },
+      "B_fixed_iso": {
+        "acks_generated": {
+          "mean": 701352,
+          "n": 3,
+          "std": 661.9094
+        },
+        "acks_received": {
+          "mean": 687243.3333,
+          "n": 3,
+          "std": 593.4057
+        },
+        "bytes_per_s": {
+          "mean": 11200.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_offered_per_s": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "emergency_pdr_percent": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "frames_delivered": {
+          "mean": 20628,
+          "n": 3,
+          "std": 19.4679
+        },
+        "frames_offered": {
+          "mean": 21000,
+          "n": 3,
+          "std": 0.0
+        },
+        "normal_msg_per_s": {
+          "mean": 10.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "packets_per_min": {
+          "mean": 21000.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "pdr_percent": {
+          "mean": 98.2286,
+          "n": 3,
+          "std": 0.0927
+        },
+        "rtt_mean_ms": {
+          "mean": 5.5103,
+          "n": 3,
+          "std": 0.0015
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1957,
+          "n": 3,
+          "std": 0.0045
+        }
+      },
+      "C_adapt_noiso": {
+        "acks_generated": {
+          "mean": 260349.3333,
+          "n": 3,
+          "std": 438.499
+        },
+        "acks_received": {
+          "mean": 255013,
+          "n": 3,
+          "std": 398.0716
+        },
+        "bytes_per_s": {
+          "mean": 4162.67,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_offered_per_s": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "emergency_pdr_percent": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "frames_delivered": {
+          "mean": 7657.3333,
+          "n": 3,
+          "std": 12.897
+        },
+        "frames_offered": {
+          "mean": 7805,
+          "n": 3,
+          "std": 0.0
+        },
+        "normal_msg_per_s": {
+          "mean": 3.7167,
+          "n": 3,
+          "std": 0.0
+        },
+        "packets_per_min": {
+          "mean": 7805.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "pdr_percent": {
+          "mean": 98.108,
+          "n": 3,
+          "std": 0.1652
+        },
+        "rtt_mean_ms": {
+          "mean": 5.5087,
+          "n": 3,
+          "std": 0.0072
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1983,
+          "n": 3,
+          "std": 0.0031
+        }
+      },
+      "D_daas_full": {
+        "acks_generated": {
+          "mean": 260349.3333,
+          "n": 3,
+          "std": 438.499
+        },
+        "acks_received": {
+          "mean": 255013,
+          "n": 3,
+          "std": 398.0716
+        },
+        "bytes_per_s": {
+          "mean": 4162.67,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_offered_per_s": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "emergency_pdr_percent": {
+          "mean": 0.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": null,
+          "n": 0,
+          "std": null
+        },
+        "frames_delivered": {
+          "mean": 7657.3333,
+          "n": 3,
+          "std": 12.897
+        },
+        "frames_offered": {
+          "mean": 7805,
+          "n": 3,
+          "std": 0.0
+        },
+        "normal_msg_per_s": {
+          "mean": 3.7167,
+          "n": 3,
+          "std": 0.0
+        },
+        "packets_per_min": {
+          "mean": 7805.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "pdr_percent": {
+          "mean": 98.108,
+          "n": 3,
+          "std": 0.1652
+        },
+        "rtt_mean_ms": {
+          "mean": 5.5087,
+          "n": 3,
+          "std": 0.0072
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1983,
+          "n": 3,
+          "std": 0.0031
+        }
+      },
+      "paired_vs_A": {
+        "A_baseline": {
+          "packets_per_min_delta": 0.0,
+          "pdr_delta": 0.0
+        },
+        "B_fixed_iso": {
+          "packets_per_min_delta": 0.0,
+          "pdr_delta": 0.0
+        },
+        "C_adapt_noiso": {
+          "packets_per_min_delta": -13195.0,
+          "pdr_delta": -0.1206
+        },
+        "D_daas_full": {
+          "packets_per_min_delta": -13195.0,
+          "pdr_delta": -0.1206
+        }
+      }
+    },
+    "emergency": {
+      "A_baseline": {
+        "acks_generated": {
+          "mean": 52878,
+          "n": 3,
+          "std": 58.5577
+        },
+        "acks_received": {
+          "mean": 51792.6667,
+          "n": 3,
+          "std": 57.977
+        },
+        "bytes_per_s": {
+          "mean": 3200.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_offered_per_s": {
+          "mean": 2.8167,
+          "n": 3,
+          "std": 0.1691
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": 6.1657,
+          "n": 3,
+          "std": 0.0309
+        },
+        "emergency_pdr_percent": {
+          "mean": 97.4279,
+          "n": 3,
+          "std": 0.3909
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": 83.192,
+          "n": 3,
+          "std": 5.0807
+        },
+        "frames_delivered": {
+          "mean": 5875.3333,
+          "n": 3,
+          "std": 6.5064
+        },
+        "frames_offered": {
+          "mean": 6000,
+          "n": 3,
+          "std": 0.0
+        },
+        "normal_msg_per_s": {
+          "mean": 10.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "packets_per_min": {
+          "mean": 6000.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "pdr_percent": {
+          "mean": 97.9222,
+          "n": 3,
+          "std": 0.1084
+        },
+        "rtt_mean_ms": {
+          "mean": 5.5167,
+          "n": 3,
+          "std": 0.0012
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1883,
+          "n": 3,
+          "std": 0.0189
+        }
+      },
+      "B_fixed_iso": {
+        "acks_generated": {
+          "mean": 55089,
+          "n": 3,
+          "std": 460.9371
+        },
+        "acks_received": {
+          "mean": 53974.3333,
+          "n": 3,
+          "std": 427.8111
+        },
+        "bytes_per_s": {
+          "mean": 3332.09,
+          "n": 3,
+          "std": 29.28
+        },
+        "emergency_offered_per_s": {
+          "mean": 8.2556,
+          "n": 3,
+          "std": 1.8301
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": 6.201,
+          "n": 3,
+          "std": 0.0105
+        },
+        "emergency_pdr_percent": {
+          "mean": 98.462,
+          "n": 3,
+          "std": 0.6688
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": 39.433,
+          "n": 3,
+          "std": 5.8389
+        },
+        "frames_delivered": {
+          "mean": 6121,
+          "n": 3,
+          "std": 51.2152
+        },
+        "frames_offered": {
+          "mean": 6247.6667,
+          "n": 3,
+          "std": 54.9029
+        },
+        "normal_msg_per_s": {
+          "mean": 10.4128,
+          "n": 3,
+          "std": 0.0915
+        },
+        "packets_per_min": {
+          "mean": 6247.6667,
+          "n": 3,
+          "std": 54.9029
+        },
+        "pdr_percent": {
+          "mean": 97.9729,
+          "n": 3,
+          "std": 0.1783
+        },
+        "rtt_mean_ms": {
+          "mean": 5.515,
+          "n": 3,
+          "std": 0.0066
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1897,
+          "n": 3,
+          "std": 0.0083
+        }
+      },
+      "C_adapt_noiso": {
+        "acks_generated": {
+          "mean": 35346,
+          "n": 3,
+          "std": 72.1873
+        },
+        "acks_received": {
+          "mean": 34622.3333,
+          "n": 3,
+          "std": 88.9513
+        },
+        "bytes_per_s": {
+          "mean": 2133.33,
+          "n": 3,
+          "std": 0.0
+        },
+        "emergency_offered_per_s": {
+          "mean": 1.5611,
+          "n": 3,
+          "std": 0.3706
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": 6.1507,
+          "n": 3,
+          "std": 0.0742
+        },
+        "emergency_pdr_percent": {
+          "mean": 99.0625,
+          "n": 3,
+          "std": 0.9346
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": 121.7897,
+          "n": 3,
+          "std": 15.6946
+        },
+        "frames_delivered": {
+          "mean": 3927.3333,
+          "n": 3,
+          "std": 8.0208
+        },
+        "frames_offered": {
+          "mean": 4000,
+          "n": 3,
+          "std": 0.0
+        },
+        "normal_msg_per_s": {
+          "mean": 6.6667,
+          "n": 3,
+          "std": 0.0
+        },
+        "packets_per_min": {
+          "mean": 4000.0,
+          "n": 3,
+          "std": 0.0
+        },
+        "pdr_percent": {
+          "mean": 98.1833,
+          "n": 3,
+          "std": 0.2005
+        },
+        "rtt_mean_ms": {
+          "mean": 5.5097,
+          "n": 3,
+          "std": 0.0029
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1907,
+          "n": 3,
+          "std": 0.0055
+        }
+      },
+      "D_daas_full": {
+        "acks_generated": {
+          "mean": 37980,
+          "n": 3,
+          "std": 947.7389
+        },
+        "acks_received": {
+          "mean": 37228.3333,
+          "n": 3,
+          "std": 914.0598
+        },
+        "bytes_per_s": {
+          "mean": 2294.7567,
+          "n": 3,
+          "std": 58.3745
+        },
+        "emergency_offered_per_s": {
+          "mean": 7.5389,
+          "n": 3,
+          "std": 2.7356
+        },
+        "emergency_p95_rtt_ms": {
+          "mean": 6.1923,
+          "n": 3,
+          "std": 0.0119
+        },
+        "emergency_pdr_percent": {
+          "mean": 97.7883,
+          "n": 3,
+          "std": 0.3216
+        },
+        "emergency_preempt_p95_ms": {
+          "mean": 26.768,
+          "n": 3,
+          "std": 9.2557
+        },
+        "frames_delivered": {
+          "mean": 4220,
+          "n": 3,
+          "std": 105.3043
+        },
+        "frames_offered": {
+          "mean": 4302.6667,
+          "n": 3,
+          "std": 109.4547
+        },
+        "normal_msg_per_s": {
+          "mean": 7.1711,
+          "n": 3,
+          "std": 0.1824
+        },
+        "packets_per_min": {
+          "mean": 4302.6667,
+          "n": 3,
+          "std": 109.4547
+        },
+        "pdr_percent": {
+          "mean": 98.0799,
+          "n": 3,
+          "std": 0.3657
+        },
+        "rtt_mean_ms": {
+          "mean": 5.509,
+          "n": 3,
+          "std": 0.0026
+        },
+        "rtt_p95_ms": {
+          "mean": 6.1897,
+          "n": 3,
+          "std": 0.0101
+        }
+      },
+      "paired_vs_A": {
+        "A_baseline": {
+          "packets_per_min_delta": 0.0,
+          "pdr_delta": 0.0
+        },
+        "B_fixed_iso": {
+          "packets_per_min_delta": 247.67,
+          "pdr_delta": 0.0507
+        },
+        "C_adapt_noiso": {
+          "packets_per_min_delta": -2000.0,
+          "pdr_delta": 0.2611
+        },
+        "D_daas_full": {
+          "packets_per_min_delta": -1697.33,
+          "pdr_delta": 0.1577
+        }
+      }
+    }
+  },
+  "seeds": [
+    8001,
+    8002,
+    8003
+  ]
+}

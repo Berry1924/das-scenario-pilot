@@ -1,0 +1,76 @@
+{
+  "rows": 1800,
+  "source_raw": "results/raw/T1_age_rmse.csv",
+  "statistics": {
+    "accel_mps2": {
+      "ci95_halfwidth": 0.0855,
+      "mean": -3.375,
+      "median": -3.25,
+      "n": 1800,
+      "std": 1.8503
+    },
+    "age_ms": {
+      "ci95_halfwidth": 21.9719,
+      "mean": 491.1111,
+      "median": 300.0,
+      "n": 1800,
+      "std": 475.6072
+    },
+    "false_clear_share": {
+      "ci95_halfwidth": 0.0023,
+      "mean": 0.0141,
+      "median": 0.0,
+      "n": 1800,
+      "std": 0.0492
+    },
+    "headway_m": {
+      "ci95_halfwidth": 0.9427,
+      "mean": 52.8,
+      "median": 50.0,
+      "n": 1800,
+      "std": 20.4057
+    },
+    "max_abs_err_s": {
+      "ci95_halfwidth": 12.4327,
+      "mean": 96.826,
+      "median": 2.2221,
+      "n": 1800,
+      "std": 269.1192
+    },
+    "n_eval_steps": {
+      "ci95_halfwidth": 5.1549,
+      "mean": 205.6533,
+      "median": 233.0,
+      "n": 1800,
+      "std": 111.5836
+    },
+    "ttc_mae_s": {
+      "ci95_halfwidth": 0.2503,
+      "mean": 3.0935,
+      "median": 0.6995,
+      "n": 1800,
+      "std": 5.4173
+    },
+    "ttc_rmse_s": {
+      "ci95_halfwidth": 0.9606,
+      "mean": 8.8467,
+      "median": 0.8547,
+      "n": 1800,
+      "std": 20.7934
+    },
+    "warn_delay_ms_proposed": {
+      "ci95_halfwidth": 12.7436,
+      "mean": 111.5152,
+      "median": 50.0,
+      "n": 561,
+      "std": 153.9991
+    },
+    "warn_delay_ms_stale": {
+      "ci95_halfwidth": 39.3264,
+      "mean": 377.037,
+      "median": 200.0,
+      "n": 459,
+      "std": 429.8679
+    }
+  }
+}

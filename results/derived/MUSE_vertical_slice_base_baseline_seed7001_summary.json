@@ -1,0 +1,20 @@
+{
+  "rows": 12000,
+  "source_raw": "results/raw/MUSE_vertical_slice_base_baseline_seed7001.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0051,
+      "mean": 2.7557,
+      "median": 2.757,
+      "n": 12000,
+      "std": 0.2873
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 6.1983,
+      "mean": 600.5,
+      "median": 600.5,
+      "n": 12000,
+      "std": 346.4245
+    }
+  }
+}

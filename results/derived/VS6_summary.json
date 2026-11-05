@@ -1,0 +1,45 @@
+{
+  "acceptance": {
+    "decision_coverage_full": true,
+    "emergency_frames_delivered": true,
+    "emergency_not_suppressed": true,
+    "recovery_after_blackout": true,
+    "risk_escalation_observed": true,
+    "watchdog_within_2500ms": true
+  },
+  "acceptance_all_pass": true,
+  "decision_coverage_pct": 100.0,
+  "degradation_events": [
+    {
+      "state": "V2V_DEGRADED",
+      "timestamp_ms": 10460
+    },
+    {
+      "state": "FULL",
+      "timestamp_ms": 14000
+    }
+  ],
+  "emergency_delivered": 97,
+  "emergency_tx": 220,
+  "experiment_id": "VS6",
+  "modality": "SIMULATION",
+  "normal_delivered": 45,
+  "normal_tx": 46,
+  "pdr_leader_frames_pct": 53.383,
+  "recovered_at_ms": 14000.0,
+  "recovery_latency_ms": 0.0,
+  "risk_reached_critical": true,
+  "rtt_mean_ms": 5.554,
+  "rtt_p95_ms": 6.184,
+  "seed": 6001,
+  "slices_integrated": [
+    "VS1",
+    "VS2",
+    "VS3",
+    "VS4",
+    "VS5"
+  ],
+  "state_transitions": 2,
+  "v2v_degraded_at_ms": 10460.0,
+  "watchdog_latency_ms": 2460.0
+}

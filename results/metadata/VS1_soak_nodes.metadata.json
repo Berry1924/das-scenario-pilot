@@ -1,0 +1,26 @@
+{
+  "configuration": {
+    "dt_ms": 10.0,
+    "duration_s": 600.0,
+    "label": "soak",
+    "loss_prob": 0.02,
+    "modality": "SIMULATION",
+    "n_nodes": 2,
+    "nominal_interval_ms": 100.0,
+    "policy": "fixed",
+    "transport": "ESP-NOW-style simulated channel (NOT C-V2X/DSRC)"
+  },
+  "experiment_id": "VS1",
+  "finished_utc": "2026-09-30T18:07:45Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/VS1_soak_nodes.csv",
+  "row_count": 2,
+  "run_id": "VS1_soak_nodes",
+  "run_number": 1,
+  "seed": 9002,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-09-30T18:07:45Z",
+  "status": "COMPLETE"
+}

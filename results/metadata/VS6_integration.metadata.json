@@ -1,0 +1,39 @@
+{
+  "configuration": {
+    "blackout_s": [
+      8.0,
+      14.0
+    ],
+    "brake_start_s": 5.0,
+    "dt_ms": 10.0,
+    "duration_s": 16.0,
+    "hazard_latch_ms": 1500.0,
+    "headway_m": 40.0,
+    "lead_brake_mps2": -4.0,
+    "local_sensor": "ideal surrogate (always fresh) \u2014 noted as modelling assumption",
+    "loss_prob": 0.02,
+    "modality": "SIMULATION",
+    "scenario": "follower approaches braking leader; V2V blackout 8-10 s",
+    "slices_integrated": [
+      "VS1_ack_rtt",
+      "VS2_adaptation_isolation",
+      "VS3_trust_gate",
+      "VS4_ttc_risk",
+      "VS5_degradation"
+    ],
+    "watchdog_ms": 2500.0
+  },
+  "experiment_id": "VS6",
+  "finished_utc": "2026-09-30T18:07:46Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/VS6_timeline.csv",
+  "row_count": 1600,
+  "run_id": "VS6_integration",
+  "run_number": 1,
+  "seed": 6001,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-09-30T18:07:46Z",
+  "status": "COMPLETE"
+}

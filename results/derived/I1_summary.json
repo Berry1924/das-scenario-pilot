@@ -1,0 +1,49 @@
+{
+  "baseline_A_ungated": {
+    "accepted_all_crc_pass": 10000
+  },
+  "baseline_B_sequence_only": {
+    "rejection_by_class_pct": {
+      "duplicate": 100.0,
+      "impossible_distance": 0.0,
+      "impossible_speed": 0.0,
+      "invalid_sequence": 100.0,
+      "stale": 0.0
+    }
+  },
+  "baseline_C_full_gate": {
+    "accepted": 5000,
+    "anomaly_rejection_rate_pct": 100.0,
+    "downweighted": 0,
+    "false_rejection_rate_pct": 0.0,
+    "rejection_by_class_pct": {
+      "duplicate": 100.0,
+      "impossible_distance": 100.0,
+      "impossible_speed": 100.0,
+      "invalid_sequence": 100.0,
+      "stale": 100.0
+    }
+  },
+  "corpus": {
+    "injected_anomalies": 5000,
+    "per_class": {
+      "duplicate": 1000,
+      "impossible_distance": 1000,
+      "impossible_speed": 1000,
+      "invalid_sequence": 1000,
+      "stale": 1000
+    },
+    "total": 10000,
+    "valid": 5000
+  },
+  "exec_time_us": {
+    "mean": 31.94,
+    "measurement": "host Python time.perf_counter (NOT ESP32 cycle counter)",
+    "median": 27.28,
+    "p99": 77.43
+  },
+  "experiment_id": "I1",
+  "modality": "SIMULATION",
+  "note": "Exec time is host-Python; the research-spec ESP32 <100 us on-chip overhead claim remains UNVERIFIED until bench runs. This experiment also serves as the VS3 slice measurement.",
+  "seed": 3001
+}

@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "arm": "D_daas_full",
+    "arms_all": [
+      "A_baseline",
+      "B_fixed_iso",
+      "C_adapt_noiso",
+      "D_daas_full"
+    ],
+    "channel": {
+      "loss_prob": 0.02
+    },
+    "metrics_source": "WorldMetrics existing implementations",
+    "modality": "SIMULATION",
+    "scenario": "dense",
+    "seed": 8002,
+    "seeds_all": [
+      8001,
+      8002,
+      8003
+    ],
+    "world": {
+      "comm_range_m": 100.0,
+      "dt_ms": 10.0,
+      "duration_s": 60.0,
+      "emergency_duration_ms": 2000.0,
+      "emergency_enabled": false,
+      "emergency_isolation": true,
+      "emergency_lambda": 0.0,
+      "n_nodes": 35,
+      "policy": "adaptive",
+      "road_length_m": 100.0
+    }
+  },
+  "experiment_id": "ABL2X2",
+  "finished_utc": "2026-10-28T16:01:51Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "Task C 2x2 ablation arm",
+  "raw_csv": "results/raw/ABL2X2_dense_D_daas_full_seed8002.csv",
+  "row_count": 7805,
+  "run_id": "ABL2X2_dense_D_daas_full_seed8002",
+  "run_number": 1,
+  "seed": 8002,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-10-28T16:01:31Z",
+  "status": "COMPLETE"
+}

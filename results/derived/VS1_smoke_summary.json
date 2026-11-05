@@ -1,0 +1,26 @@
+{
+  "acceptance": {
+    "csv_readable": true,
+    "duplicate_detection": true,
+    "smoke_test": true,
+    "unique_packets": true
+  },
+  "acks_generated": 2345,
+  "acks_received": 2296,
+  "csv_readable": true,
+  "duplicate_detection_ok": true,
+  "duration_s": 120.0,
+  "experiment_id": "VS1",
+  "frames_delivered": 2345,
+  "frames_offered": 2400,
+  "label": "smoke",
+  "modality": "SIMULATION",
+  "normal_msg_rate_hz": 10.0,
+  "pdr_pct": 97.7083,
+  "rtt_mean_ms": 5.52,
+  "rtt_median_ms": 5.524,
+  "rtt_p95_ms": 6.191,
+  "seed": 9001,
+  "transport": "ESP-NOW-style simulated channel (NOT C-V2X/DSRC)",
+  "unique_packets": 2400
+}

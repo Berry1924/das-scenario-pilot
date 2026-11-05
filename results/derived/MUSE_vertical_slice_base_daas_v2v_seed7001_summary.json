@@ -1,0 +1,20 @@
+{
+  "rows": 8081,
+  "source_raw": "results/raw/MUSE_vertical_slice_base_daas_v2v_seed7001.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0063,
+      "mean": 2.7535,
+      "median": 2.753,
+      "n": 8081,
+      "std": 0.2885
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 5.0902,
+      "mean": 404.6447,
+      "median": 405.0,
+      "n": 8081,
+      "std": 233.4581
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "rows": 6306,
+  "source_raw": "results/raw/ABL2X2_emergency_B_fixed_iso_seed8002.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0072,
+      "mean": 2.7544,
+      "median": 2.7515,
+      "n": 6306,
+      "std": 0.2899
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 4.5027,
+      "mean": 316.0182,
+      "median": 316.0,
+      "n": 6306,
+      "std": 182.43
+    }
+  }
+}

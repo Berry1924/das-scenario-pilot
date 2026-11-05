@@ -1,0 +1,20 @@
+{
+  "rows": 1600,
+  "source_raw": "results/raw/VS6_timeline.csv",
+  "statistics": {
+    "separation_m": {
+      "ci95_halfwidth": 1.5795,
+      "mean": 10.1607,
+      "median": 22.55,
+      "n": 1600,
+      "std": 32.2345
+    },
+    "ttc_s": {
+      "ci95_halfwidth": 4.6721,
+      "mean": 12.0392,
+      "median": 2.62,
+      "n": 525,
+      "std": 54.6182
+    }
+  }
+}

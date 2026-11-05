@@ -1,0 +1,101 @@
+{
+  "arms": {
+    "baseline": {
+      "emergency_isolation": false,
+      "events_logged": 12000,
+      "metadata_json_relpath": "results/metadata/MUSE_vertical_slice_base_baseline.metadata.json",
+      "metrics": {
+        "acks_generated": 106011,
+        "acks_received": 103851,
+        "bytes_per_s": 3200.0,
+        "emergency_p95_rtt_ms": 6.206,
+        "emergency_pdr_percent": 97.6,
+        "emergency_preempt_p95_ms": 76.368,
+        "frames_delivered": 11779,
+        "frames_offered": 12000,
+        "normal_msg_per_s": 10.0,
+        "packets_per_min": 6000.0,
+        "pdr_percent": 98.1583,
+        "rtt_mean_ms": 5.511,
+        "rtt_p95_ms": 6.195
+      },
+      "policy": "fixed",
+      "raw_csv_relpath": "results/raw/MUSE_vertical_slice_base_baseline_seed7001.csv",
+      "seed": 7001,
+      "status": "COMPLETE"
+    },
+    "daas_v2v": {
+      "emergency_isolation": true,
+      "events_logged": 8081,
+      "metadata_json_relpath": "results/metadata/MUSE_vertical_slice_base_daas_v2v.metadata.json",
+      "metrics": {
+        "acks_generated": 71334,
+        "acks_received": 69878,
+        "bytes_per_s": 2154.93,
+        "emergency_p95_rtt_ms": 6.085,
+        "emergency_pdr_percent": 97.5,
+        "emergency_preempt_p95_ms": 29.38,
+        "frames_delivered": 7926,
+        "frames_offered": 8081,
+        "normal_msg_per_s": 6.7342,
+        "packets_per_min": 4040.5,
+        "pdr_percent": 98.0819,
+        "rtt_mean_ms": 5.509,
+        "rtt_p95_ms": 6.181
+      },
+      "policy": "adaptive",
+      "raw_csv_relpath": "results/raw/MUSE_vertical_slice_base_daas_v2v_seed7001.csv",
+      "seed": 7001,
+      "status": "COMPLETE"
+    }
+  },
+  "generated_utc": "2026-10-31T16:38:52Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "metrics_source": "WorldMetrics existing implementations; no LLM",
+  "modality": "SIMULATION",
+  "paired_deltas": {
+    "Bytes/s": -1045.07,
+    "Emergency PDR (%)": -0.1,
+    "Emergency RTT p95 (ms)": -0.121,
+    "Msgs/s/node": -3.2658,
+    "PDR (%)": -0.0764,
+    "Packets/min": -1959.5,
+    "Preempt airtime p95 (ms)": -46.988,
+    "RTT mean (ms)": -0.002,
+    "RTT p95 (ms)": -0.014,
+    "acks_generated": -34677,
+    "acks_received": -33973,
+    "frames_delivered": -3853,
+    "frames_offered": -3919
+  },
+  "scenario": {
+    "comm_range_m": 100.0,
+    "description": "Deterministic local scenario mirroring the C1 N=10 tier environment at 120 s duration: paired baseline (fixed 10 Hz, no isolation) vs DAAS-V2V (adaptive 2-20 Hz with emergency isolation). Same seed for both arms.",
+    "dt_ms": 10.0,
+    "duration_s": 120.0,
+    "emergency_duration_ms": 2000.0,
+    "emergency_intensity": 0.05,
+    "loss_prob": 0.02,
+    "name": "vertical_slice_base",
+    "num_vehicles": 10,
+    "road_length_m": 100.0,
+    "schema_version": "1.0",
+    "seed": 7001,
+    "speed_jitter_mps": 3.0,
+    "speed_mean_mps": 8.0,
+    "trust_gate_enabled": false
+  },
+  "scenario_hash": "df505279e1cd0ceecbdf81363b5449965c9ef5999c876c79ec3fe3409501fee5",
+  "seed": 7001,
+  "software_version": "daas-impl 1.0.0",
+  "spark_review": {
+    "content_sha256": "",
+    "diagnostics": {},
+    "error": "",
+    "latency_ms": 0,
+    "model": "muse-spark-1.3",
+    "status": "DISABLED_NO_URL",
+    "summary": "",
+    "verdict": ""
+  }
+}

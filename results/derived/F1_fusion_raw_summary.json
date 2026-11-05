@@ -1,0 +1,62 @@
+{
+  "rows": 240,
+  "source_raw": "results/raw/F1_fusion_raw.csv",
+  "statistics": {
+    "alarm_toggles": {
+      "ci95_halfwidth": 0.2829,
+      "mean": 2.15,
+      "median": 1.0,
+      "n": 240,
+      "std": 2.2357
+    },
+    "approach_speed_mps": {
+      "ci95_halfwidth": 0.5101,
+      "mean": 9.75,
+      "median": 10.0,
+      "n": 240,
+      "std": 4.0318
+    },
+    "lead_time_s": {
+      "ci95_halfwidth": 0.2179,
+      "mean": 2.7866,
+      "median": 2.5,
+      "n": 240,
+      "std": 1.7226
+    },
+    "noise_sigma_m": {
+      "ci95_halfwidth": 0.2375,
+      "mean": 2.3,
+      "median": 2.0,
+      "n": 240,
+      "std": 1.8774
+    },
+    "v2v_in_range": {
+      "ci95_halfwidth": 3.9366,
+      "mean": 68.85,
+      "median": 55.0,
+      "n": 240,
+      "std": 31.1153
+    },
+    "valid_info_fraction": {
+      "ci95_halfwidth": 0.0166,
+      "mean": 0.3818,
+      "median": 0.4616,
+      "n": 240,
+      "std": 0.1309
+    },
+    "visibility_m": {
+      "ci95_halfwidth": 4.6013,
+      "mean": 43.75,
+      "median": 35.0,
+      "n": 240,
+      "std": 36.3689
+    },
+    "warning_distance_m": {
+      "ci95_halfwidth": 0.998,
+      "mean": 22.1285,
+      "median": 24.95,
+      "n": 240,
+      "std": 7.8885
+    }
+  }
+}

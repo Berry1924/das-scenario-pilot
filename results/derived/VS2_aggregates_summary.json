@@ -1,0 +1,139 @@
+{
+  "rows": 15,
+  "source_raw": "results/raw/VS2_aggregates.csv",
+  "statistics": {
+    "duration_s": {
+      "ci95_halfwidth": 0.0,
+      "mean": 120.0,
+      "median": 120.0,
+      "n": 15,
+      "std": 0.0
+    },
+    "emergency_frames_delivered": {
+      "ci95_halfwidth": 38.8918,
+      "mean": 110.9333,
+      "median": 98.0,
+      "n": 15,
+      "std": 70.2226
+    },
+    "emergency_frames_offered": {
+      "ci95_halfwidth": 39.8645,
+      "mean": 113.3333,
+      "median": 100.0,
+      "n": 15,
+      "std": 71.9788
+    },
+    "emergency_msg_rate_hz": {
+      "ci95_halfwidth": 3.9553,
+      "mean": 12.2927,
+      "median": 10.0,
+      "n": 15,
+      "std": 7.1416
+    },
+    "emergency_pdr_pct": {
+      "ci95_halfwidth": 0.8219,
+      "mean": 97.8377,
+      "median": 98.0,
+      "n": 15,
+      "std": 1.4839
+    },
+    "emergency_preempt_mean_ms": {
+      "ci95_halfwidth": 24.3379,
+      "mean": 51.7208,
+      "median": 41.211,
+      "n": 15,
+      "std": 43.9443
+    },
+    "emergency_preempt_p95_ms": {
+      "ci95_halfwidth": 35.7569,
+      "mean": 85.4065,
+      "median": 80.354,
+      "n": 15,
+      "std": 64.5622
+    },
+    "emergency_rtt_mean_ms": {
+      "ci95_halfwidth": 0.025,
+      "mean": 5.5317,
+      "median": 5.529,
+      "n": 15,
+      "std": 0.0451
+    },
+    "emergency_rtt_p95_ms": {
+      "ci95_halfwidth": 0.0443,
+      "mean": 6.1811,
+      "median": 6.205,
+      "n": 15,
+      "std": 0.08
+    },
+    "frames_delivered": {
+      "ci95_halfwidth": 3159.0033,
+      "mean": 15726.7333,
+      "median": 11907.0,
+      "n": 15,
+      "std": 5703.8541
+    },
+    "frames_offered": {
+      "ci95_halfwidth": 3224.4843,
+      "mean": 16046.0,
+      "median": 12150.0,
+      "n": 15,
+      "std": 5822.0858
+    },
+    "n_nodes": {
+      "ci95_halfwidth": 0.0,
+      "mean": 20.0,
+      "median": 20.0,
+      "n": 15,
+      "std": 0.0
+    },
+    "normal_frames_delivered": {
+      "ci95_halfwidth": 3162.4607,
+      "mean": 15615.8,
+      "median": 11731.0,
+      "n": 15,
+      "std": 5710.0968
+    },
+    "normal_frames_offered": {
+      "ci95_halfwidth": 3228.1111,
+      "mean": 15932.6667,
+      "median": 11960.0,
+      "n": 15,
+      "std": 5828.6343
+    },
+    "normal_msg_rate_hz": {
+      "ci95_halfwidth": 1.3451,
+      "mean": 6.6386,
+      "median": 4.9833,
+      "n": 15,
+      "std": 2.4286
+    },
+    "normal_pdr_pct": {
+      "ci95_halfwidth": 0.0503,
+      "mean": 98.0162,
+      "median": 98.0251,
+      "n": 15,
+      "std": 0.0909
+    },
+    "normal_rtt_mean_ms": {
+      "ci95_halfwidth": 0.0022,
+      "mean": 5.5123,
+      "median": 5.513,
+      "n": 15,
+      "std": 0.004
+    },
+    "normal_rtt_p95_ms": {
+      "ci95_halfwidth": 0.0025,
+      "mean": 6.1933,
+      "median": 6.192,
+      "n": 15,
+      "std": 0.0046
+    },
+    "pdr_pct": {
+      "ci95_halfwidth": 0.0513,
+      "mean": 98.0149,
+      "median": 98.0167,
+      "n": 15,
+      "std": 0.0926
+    }
+  }
+}

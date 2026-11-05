@@ -1,0 +1,104 @@
+{
+  "rows": 210,
+  "source_raw": "results/raw/R1_scenarios.csv",
+  "statistics": {
+    "both_degraded_pct": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "n": 210,
+      "std": 0.0
+    },
+    "decision_coverage_pct": {
+      "ci95_halfwidth": 3.4848,
+      "mean": 92.6147,
+      "median": 100.0,
+      "n": 210,
+      "std": 25.7647
+    },
+    "duration_ms": {
+      "ci95_halfwidth": 0.0,
+      "mean": 60000.0,
+      "median": 60000.0,
+      "n": 210,
+      "std": 0.0
+    },
+    "fallback_latency_ms": {
+      "ci95_halfwidth": 0.0,
+      "mean": 2510.0,
+      "median": 2510.0,
+      "n": 10,
+      "std": 0.0
+    },
+    "fallback_triggered": {
+      "ci95_halfwidth": 0.0561,
+      "mean": 0.219,
+      "median": 0.0,
+      "n": 210,
+      "std": 0.4146
+    },
+    "false_clear_count": {
+      "ci95_halfwidth": 1.4473,
+      "mean": 3.4286,
+      "median": 0.0,
+      "n": 210,
+      "std": 10.7007
+    },
+    "full_pct": {
+      "ci95_halfwidth": 3.4842,
+      "mean": 92.599,
+      "median": 99.983,
+      "n": 210,
+      "std": 25.7604
+    },
+    "ghost_warning_ms": {
+      "ci95_halfwidth": 1840.7222,
+      "mean": 9742.1429,
+      "median": 1490.0,
+      "n": 210,
+      "std": 13609.4893
+    },
+    "packets_lost": {
+      "ci95_halfwidth": 22.358,
+      "mean": 96.4,
+      "median": 7.5,
+      "n": 210,
+      "std": 165.3051
+    },
+    "packets_rx": {
+      "ci95_halfwidth": 22.358,
+      "mean": 503.6,
+      "median": 592.5,
+      "n": 210,
+      "std": 165.3051
+    },
+    "recovery_latency_ms": {
+      "ci95_halfwidth": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "n": 10,
+      "std": 0.0
+    },
+    "sensor_degraded_pct": {
+      "ci95_halfwidth": 0.0013,
+      "mean": 0.0012,
+      "median": 0.0,
+      "n": 210,
+      "std": 0.0099
+    },
+    "v2v_degraded_pct": {
+      "ci95_halfwidth": 3.4842,
+      "mean": 7.3829,
+      "median": 0.0,
+      "n": 210,
+      "std": 25.7607
+    },
+    "warning_dropout_ms": {
+      "ci95_halfwidth": 723.4377,
+      "mean": 2215.0,
+      "median": 0.0,
+      "n": 210,
+      "std": 5348.7794
+    }
+  }
+}

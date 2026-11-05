@@ -1,0 +1,36 @@
+{
+  "configuration": {
+    "configs": [
+      "A_fixed_shared",
+      "B_adaptive_no_isolation",
+      "C_adaptive_isolation"
+    ],
+    "dt_ms": 10.0,
+    "duration_s": 120.0,
+    "emergency_duration_ms": 2000.0,
+    "emergency_lambda": 0.05,
+    "loss_prob": 0.02,
+    "modality": "SIMULATION",
+    "n_nodes": 20,
+    "seeds": [
+      9101,
+      9102,
+      9103,
+      9104,
+      9105
+    ]
+  },
+  "experiment_id": "VS2",
+  "finished_utc": "2026-09-30T18:12:39Z",
+  "git_hash": "9f9c19ec9ca615e35c742ac5ab58e8ca373a917e",
+  "modality": "SIMULATION",
+  "notes": "",
+  "raw_csv": "results/raw/VS2_events_seed9101.csv",
+  "row_count": 24000,
+  "run_id": "VS2_events_seed9101",
+  "run_number": 1,
+  "seed": 9101,
+  "software_version": "daas-impl 1.0.0",
+  "started_utc": "2026-09-30T18:08:03Z",
+  "status": "COMPLETE"
+}

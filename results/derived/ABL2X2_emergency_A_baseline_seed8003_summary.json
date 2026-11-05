@@ -1,0 +1,20 @@
+{
+  "rows": 6000,
+  "source_raw": "results/raw/ABL2X2_emergency_A_baseline_seed8003.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0073,
+      "mean": 2.754,
+      "median": 2.75,
+      "n": 6000,
+      "std": 0.2881
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 4.3831,
+      "mean": 300.5,
+      "median": 300.5,
+      "n": 6000,
+      "std": 173.2193
+    }
+  }
+}

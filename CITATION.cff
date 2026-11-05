@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, datasets, or research architecture in your work, please cite it as below."
+authors:
+  - family-names: "A"
+    given-names: "Berry Sugandh Surya"
+    affiliation: "SKP Engineering College, Tiruvannamalai, Tamil Nadu, India"
+  - family-names: "Rajendran"
+    given-names: "Dr. E."
+    affiliation: "SKP Engineering College, Tiruvannamalai, Tamil Nadu, India"
+  - family-names: "S"
+    given-names: "Sushmitha"
+    affiliation: "SKP Engineering College, Tiruvannamalai, Tamil Nadu, India"
+  - family-names: "M"
+    given-names: "Aparnaa"
+    affiliation: "SKP Engineering College, Tiruvannamalai, Tamil Nadu, India"
+  - family-names: "V"
+    given-names: "Gopinath"
+    affiliation: "SKP Engineering College, Tiruvannamalai, Tamil Nadu, India"
+  - family-names: "A"
+    given-names: "Arlisa Winifred"
+    affiliation: "SKP Engineering College, Tiruvannamalai, Tamil Nadu, India"
+title: "DAS Scenario Pilot: Scenario-Driven V2V/V2X Simulation, Reproducible Communication Experiments, and ESP32 Diagnostic Tooling"
+version: 1.0.0
+date-released: 2026-11-05
+license: Apache-2.0
+url: "https://github.com/Berry1924/das-scenario-pilot"
+keywords:
+  - "vehicle-to-vehicle"
+  - "V2X"
+  - "v2v"
+  - "esp-now"
+  - "esp32"
+  - "simulation"
+  - "research"
+  - "mine safety"
+  - "meta-model-api"
+  - "muse-spark"

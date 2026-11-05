@@ -1,0 +1,20 @@
+{
+  "rows": 4000,
+  "source_raw": "results/raw/ABL2X2_emergency_C_adapt_noiso_seed8001.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0089,
+      "mean": 2.7481,
+      "median": 2.741,
+      "n": 4000,
+      "std": 0.2869
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 3.5789,
+      "mean": 200.5,
+      "median": 200.5,
+      "n": 4000,
+      "std": 115.4841
+    }
+  }
+}

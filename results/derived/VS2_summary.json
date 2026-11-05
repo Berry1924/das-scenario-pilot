@@ -1,0 +1,55 @@
+{
+  "acceptance": {
+    "B_shows_queue_delay": true,
+    "C_emergency_oneway_p95_under_5ms": true,
+    "C_emergency_pdr_robust": true,
+    "C_emergency_rate_during_emergency_ge_19hz": true
+  },
+  "acceptance_all_pass": true,
+  "configs": {
+    "A_fixed_shared": {
+      "emergency_msg_rate_hz": 0.8667,
+      "emergency_pdr_pct_mean": 97.7381,
+      "emergency_preempt_p95_ms": 72.8055,
+      "emergency_rtt_mean_ms": 5.5102,
+      "emergency_rtt_p95_ms": 6.2205,
+      "normal_msg_rate_hz": 9.9567,
+      "normal_rtt_mean_ms": 5.5117,
+      "normal_rtt_p95_ms": 6.1932,
+      "pdr_pct_mean": 97.9967
+    },
+    "B_adaptive_no_isolation": {
+      "emergency_msg_rate_hz": 0.4333,
+      "emergency_pdr_pct_mean": 97.7667,
+      "emergency_preempt_p95_ms": 164.9071,
+      "emergency_rtt_mean_ms": 5.553,
+      "emergency_rtt_p95_ms": 6.1454,
+      "normal_msg_rate_hz": 4.9783,
+      "normal_rtt_mean_ms": 5.5116,
+      "normal_rtt_p95_ms": 6.1927,
+      "pdr_pct_mean": 98.0217
+    },
+    "C_adaptive_isolation": {
+      "emergency_msg_rate_hz": 1.5333,
+      "emergency_pdr_pct_mean": 98.0083,
+      "emergency_preempt_p95_ms": 18.5068,
+      "emergency_rtt_mean_ms": 5.5318,
+      "emergency_rtt_p95_ms": 6.1777,
+      "normal_msg_rate_hz": 4.9808,
+      "normal_rtt_mean_ms": 5.5139,
+      "normal_rtt_p95_ms": 6.1938,
+      "pdr_pct_mean": 98.0263
+    }
+  },
+  "duration_s_per_seed": 120.0,
+  "experiment_id": "VS2",
+  "modality": "SIMULATION",
+  "n_nodes": 20,
+  "seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105
+  ]
+}

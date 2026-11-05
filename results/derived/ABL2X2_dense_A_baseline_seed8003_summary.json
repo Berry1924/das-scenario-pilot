@@ -1,0 +1,20 @@
+{
+  "rows": 21000,
+  "source_raw": "results/raw/ABL2X2_dense_A_baseline_seed8003.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0039,
+      "mean": 2.7561,
+      "median": 2.756,
+      "n": 21000,
+      "std": 0.2899
+    },
+    "packet_seq": {
+      "ci95_halfwidth": 2.3427,
+      "mean": 300.5,
+      "median": 300.5,
+      "n": 21000,
+      "std": 173.209
+    }
+  }
+}

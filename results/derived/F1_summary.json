@@ -1,0 +1,325 @@
+{
+  "experiment_id": "F1",
+  "modality": "SIMULATION",
+  "note": "SIMULATION model with surrogate sensors; NOT field data",
+  "seeds": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "tiers": {
+    "clear": {
+      "fusion": {
+        "alarm_toggles_mean": {
+          "mean": 1,
+          "n": 20,
+          "std": 0.0
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 0.0,
+        "lead_time_s": {
+          "mean": 3.1195,
+          "n": 20,
+          "std": 1.4502
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 24.9525,
+          "n": 20,
+          "std": 0.0413
+        }
+      },
+      "local": {
+        "alarm_toggles_mean": {
+          "mean": 1,
+          "n": 20,
+          "std": 0.0
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 0.0,
+        "lead_time_s": {
+          "mean": 3.1195,
+          "n": 20,
+          "std": 1.4502
+        },
+        "valid_info_fraction": {
+          "mean": 0.3883,
+          "n": 20,
+          "std": 0.0001
+        },
+        "warning_distance_m": {
+          "mean": 24.9525,
+          "n": 20,
+          "std": 0.0413
+        }
+      },
+      "v2v": {
+        "alarm_toggles_mean": {
+          "mean": 3.5,
+          "n": 20,
+          "std": 2.9647
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 20.0,
+        "lead_time_s": {
+          "mean": 3.325,
+          "n": 20,
+          "std": 1.7841
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.025,
+          "n": 20,
+          "std": 3.0152
+        }
+      }
+    },
+    "dense_fog": {
+      "fusion": {
+        "alarm_toggles_mean": {
+          "mean": 2.3,
+          "n": 20,
+          "std": 2.1788
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 25.0,
+        "lead_time_s": {
+          "mean": 3.305,
+          "n": 20,
+          "std": 1.5793
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.55,
+          "n": 20,
+          "std": 3.6595
+        }
+      },
+      "local": {
+        "alarm_toggles_mean": {
+          "mean": 1,
+          "n": 20,
+          "std": 0.0
+        },
+        "false_negative_rate_pct": 100.0,
+        "false_positive_rate_pct": 0.0,
+        "lead_time_s": {
+          "mean": 0.4945,
+          "n": 20,
+          "std": 0.2298
+        },
+        "valid_info_fraction": {
+          "mean": 0.1116,
+          "n": 20,
+          "std": 0.0001
+        },
+        "warning_distance_m": {
+          "mean": 3.9525,
+          "n": 20,
+          "std": 0.0413
+        }
+      },
+      "v2v": {
+        "alarm_toggles_mean": {
+          "mean": 3.5,
+          "n": 20,
+          "std": 2.9647
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 20.0,
+        "lead_time_s": {
+          "mean": 3.325,
+          "n": 20,
+          "std": 1.7841
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.025,
+          "n": 20,
+          "std": 3.0152
+        }
+      }
+    },
+    "light_dust": {
+      "fusion": {
+        "alarm_toggles_mean": {
+          "mean": 2.2,
+          "n": 20,
+          "std": 1.8806
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 25.0,
+        "lead_time_s": {
+          "mean": 3.305,
+          "n": 20,
+          "std": 1.5793
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.55,
+          "n": 20,
+          "std": 3.6595
+        }
+      },
+      "local": {
+        "alarm_toggles_mean": {
+          "mean": 1,
+          "n": 20,
+          "std": 0.0
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 0.0,
+        "lead_time_s": {
+          "mean": 2.4955,
+          "n": 20,
+          "std": 1.1586
+        },
+        "valid_info_fraction": {
+          "mean": 0.2346,
+          "n": 20,
+          "std": 0.0003
+        },
+        "warning_distance_m": {
+          "mean": 19.9675,
+          "n": 20,
+          "std": 0.0245
+        }
+      },
+      "v2v": {
+        "alarm_toggles_mean": {
+          "mean": 3.5,
+          "n": 20,
+          "std": 2.9647
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 20.0,
+        "lead_time_s": {
+          "mean": 3.325,
+          "n": 20,
+          "std": 1.7841
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.025,
+          "n": 20,
+          "std": 3.0152
+        }
+      }
+    },
+    "moderate_fog": {
+      "fusion": {
+        "alarm_toggles_mean": {
+          "mean": 2.3,
+          "n": 20,
+          "std": 2.1788
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 25.0,
+        "lead_time_s": {
+          "mean": 3.305,
+          "n": 20,
+          "std": 1.5793
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.55,
+          "n": 20,
+          "std": 3.6595
+        }
+      },
+      "local": {
+        "alarm_toggles_mean": {
+          "mean": 1,
+          "n": 20,
+          "std": 0.0
+        },
+        "false_negative_rate_pct": 100.0,
+        "false_positive_rate_pct": 0.0,
+        "lead_time_s": {
+          "mean": 0.9955,
+          "n": 20,
+          "std": 0.4612
+        },
+        "valid_info_fraction": {
+          "mean": 0.1424,
+          "n": 20,
+          "std": 0.0003
+        },
+        "warning_distance_m": {
+          "mean": 7.9675,
+          "n": 20,
+          "std": 0.0245
+        }
+      },
+      "v2v": {
+        "alarm_toggles_mean": {
+          "mean": 3.5,
+          "n": 20,
+          "std": 2.9647
+        },
+        "false_negative_rate_pct": 0.0,
+        "false_positive_rate_pct": 20.0,
+        "lead_time_s": {
+          "mean": 3.325,
+          "n": 20,
+          "std": 1.7841
+        },
+        "valid_info_fraction": {
+          "mean": 0.4631,
+          "n": 20,
+          "std": 0.0018
+        },
+        "warning_distance_m": {
+          "mean": 26.025,
+          "n": 20,
+          "std": 3.0152
+        }
+      }
+    }
+  }
+}

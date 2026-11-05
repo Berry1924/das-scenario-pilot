@@ -1,0 +1,13 @@
+{
+  "rows": 24000,
+  "source_raw": "results/raw/VS2_events_seed9101.csv",
+  "statistics": {
+    "one_way_delay_ms": {
+      "ci95_halfwidth": 0.0037,
+      "mean": 2.759,
+      "median": 2.761,
+      "n": 24000,
+      "std": 0.2893
+    }
+  }
+}

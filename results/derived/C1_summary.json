@@ -1,0 +1,769 @@
+{
+  "experiment_id": "C1",
+  "modality": "SIMULATION",
+  "paired_comparison": {
+    "N10": {
+      "adaptive_packets_mean": 20386.4,
+      "fixed_packets_mean": 30000,
+      "load_reduction_pct": 32.045
+    },
+    "N2": {
+      "adaptive_packets_mean": 5779.1,
+      "fixed_packets_mean": 6000,
+      "load_reduction_pct": 3.682
+    },
+    "N20": {
+      "adaptive_packets_mean": 30425.4,
+      "fixed_packets_mean": 60000,
+      "load_reduction_pct": 49.291
+    },
+    "N30": {
+      "adaptive_packets_mean": 36490.9,
+      "fixed_packets_mean": 90000,
+      "load_reduction_pct": 59.455
+    },
+    "N35": {
+      "adaptive_packets_mean": 39441,
+      "fixed_packets_mean": 105000,
+      "load_reduction_pct": 62.437
+    },
+    "N5": {
+      "adaptive_packets_mean": 12818,
+      "fixed_packets_mean": 15000,
+      "load_reduction_pct": 14.547
+    },
+    "N50": {
+      "adaptive_packets_mean": 43412.9,
+      "fixed_packets_mean": 150000,
+      "load_reduction_pct": 71.058
+    }
+  },
+  "seeds": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "tiers": {
+    "N10_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1984,
+        "median": 6.1902,
+        "n": 10,
+        "p95": 6.2583,
+        "std": 0.0358
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.9533,
+        "median": 97.6777,
+        "n": 10,
+        "p95": 99.1751,
+        "std": 0.76
+      },
+      "normal_msg_per_s": {
+        "mean": 6.7955,
+        "median": 6.7957,
+        "n": 10,
+        "p95": 6.8217,
+        "std": 0.0181
+      },
+      "packets_per_min": {
+        "mean": 4077.28,
+        "median": 4077.4,
+        "n": 10,
+        "p95": 4093.02,
+        "std": 10.8571
+      },
+      "pdr_pct": {
+        "mean": 97.9815,
+        "median": 97.9728,
+        "n": 10,
+        "p95": 98.0835,
+        "std": 0.069
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5124,
+        "median": 5.5128,
+        "n": 10,
+        "p95": 5.5158,
+        "std": 0.0028
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1934,
+        "median": 6.1949,
+        "n": 10,
+        "p95": 6.1985,
+        "std": 0.005
+      }
+    },
+    "N10_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.2062,
+        "median": 6.2026,
+        "n": 10,
+        "p95": 6.2465,
+        "std": 0.0265
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.5212,
+        "median": 97.6786,
+        "n": 10,
+        "p95": 98.7271,
+        "std": 0.9502
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 6000.0,
+        "median": 6000.0,
+        "n": 10,
+        "p95": 6000.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 97.972,
+        "median": 97.975,
+        "n": 10,
+        "p95": 98.084,
+        "std": 0.088
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5115,
+        "median": 5.5114,
+        "n": 10,
+        "p95": 5.5153,
+        "std": 0.0029
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1942,
+        "median": 6.1928,
+        "n": 10,
+        "p95": 6.2015,
+        "std": 0.0049
+      }
+    },
+    "N20_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1915,
+        "median": 6.1892,
+        "n": 10,
+        "p95": 6.2358,
+        "std": 0.0304
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.9097,
+        "median": 97.6923,
+        "n": 10,
+        "p95": 98.8953,
+        "std": 0.6657
+      },
+      "normal_msg_per_s": {
+        "mean": 5.0709,
+        "median": 5.0674,
+        "n": 10,
+        "p95": 5.1008,
+        "std": 0.0182
+      },
+      "packets_per_min": {
+        "mean": 6085.08,
+        "median": 6080.9,
+        "n": 10,
+        "p95": 6120.91,
+        "std": 21.801
+      },
+      "pdr_pct": {
+        "mean": 97.9704,
+        "median": 97.9584,
+        "n": 10,
+        "p95": 98.099,
+        "std": 0.0806
+      },
+      "rtt_mean_ms": {
+        "mean": 5.512,
+        "median": 5.5129,
+        "n": 10,
+        "p95": 5.5147,
+        "std": 0.0025
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1949,
+        "median": 6.1964,
+        "n": 10,
+        "p95": 6.2002,
+        "std": 0.0052
+      }
+    },
+    "N20_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1766,
+        "median": 6.1951,
+        "n": 10,
+        "p95": 6.2243,
+        "std": 0.0414
+      },
+      "emergency_pdr_pct": {
+        "mean": 98.0109,
+        "median": 97.8889,
+        "n": 10,
+        "p95": 98.8125,
+        "std": 0.6102
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 12000.0,
+        "median": 12000.0,
+        "n": 10,
+        "p95": 12000.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 98.0047,
+        "median": 98.0108,
+        "n": 10,
+        "p95": 98.076,
+        "std": 0.0518
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5125,
+        "median": 5.5129,
+        "n": 10,
+        "p95": 5.5138,
+        "std": 0.0015
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1951,
+        "median": 6.1953,
+        "n": 10,
+        "p95": 6.1968,
+        "std": 0.0014
+      }
+    },
+    "N2_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1888,
+        "median": 6.1916,
+        "n": 10,
+        "p95": 6.2114,
+        "std": 0.0171
+      },
+      "emergency_pdr_pct": {
+        "mean": 98.0192,
+        "median": 98.0516,
+        "n": 10,
+        "p95": 98.6433,
+        "std": 0.4476
+      },
+      "normal_msg_per_s": {
+        "mean": 9.6318,
+        "median": 9.6342,
+        "n": 10,
+        "p95": 9.8242,
+        "std": 0.1377
+      },
+      "packets_per_min": {
+        "mean": 1155.82,
+        "median": 1156.1,
+        "n": 10,
+        "p95": 1178.9,
+        "std": 16.5227
+      },
+      "pdr_pct": {
+        "mean": 97.9223,
+        "median": 97.9241,
+        "n": 10,
+        "p95": 98.1986,
+        "std": 0.2262
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5116,
+        "median": 5.5133,
+        "n": 10,
+        "p95": 5.5175,
+        "std": 0.0053
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1952,
+        "median": 6.1958,
+        "n": 10,
+        "p95": 6.212,
+        "std": 0.0117
+      }
+    },
+    "N2_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1939,
+        "median": 6.173,
+        "n": 10,
+        "p95": 6.2746,
+        "std": 0.0498
+      },
+      "emergency_pdr_pct": {
+        "mean": 98.2453,
+        "median": 98.1934,
+        "n": 10,
+        "p95": 99.5667,
+        "std": 0.9663
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 1200.0,
+        "median": 1200.0,
+        "n": 10,
+        "p95": 1200.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 97.96,
+        "median": 98.0,
+        "n": 10,
+        "p95": 98.1258,
+        "std": 0.1696
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5168,
+        "median": 5.518,
+        "n": 10,
+        "p95": 5.5227,
+        "std": 0.0056
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1981,
+        "median": 6.1938,
+        "n": 10,
+        "p95": 6.2158,
+        "std": 0.0118
+      }
+    },
+    "N30_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1867,
+        "median": 6.1815,
+        "n": 10,
+        "p95": 6.2311,
+        "std": 0.0301
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.8737,
+        "median": 97.8444,
+        "n": 10,
+        "p95": 98.4891,
+        "std": 0.4267
+      },
+      "normal_msg_per_s": {
+        "mean": 4.0545,
+        "median": 4.055,
+        "n": 10,
+        "p95": 4.0674,
+        "std": 0.0107
+      },
+      "packets_per_min": {
+        "mean": 7298.18,
+        "median": 7299.0,
+        "n": 10,
+        "p95": 7321.31,
+        "std": 19.2701
+      },
+      "pdr_pct": {
+        "mean": 98.037,
+        "median": 98.0465,
+        "n": 10,
+        "p95": 98.1496,
+        "std": 0.0853
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5113,
+        "median": 5.5118,
+        "n": 10,
+        "p95": 5.5131,
+        "std": 0.0021
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1979,
+        "median": 6.1975,
+        "n": 10,
+        "p95": 6.2027,
+        "std": 0.0032
+      }
+    },
+    "N30_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1841,
+        "median": 6.2019,
+        "n": 10,
+        "p95": 6.2496,
+        "std": 0.0622
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.7504,
+        "median": 97.6562,
+        "n": 10,
+        "p95": 98.7889,
+        "std": 0.8623
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 18000.0,
+        "median": 18000.0,
+        "n": 10,
+        "p95": 18000.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 98.0019,
+        "median": 98.0094,
+        "n": 10,
+        "p95": 98.0661,
+        "std": 0.0541
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5121,
+        "median": 5.512,
+        "n": 10,
+        "p95": 5.514,
+        "std": 0.0015
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1961,
+        "median": 6.1962,
+        "n": 10,
+        "p95": 6.1975,
+        "std": 0.0014
+      }
+    },
+    "N35_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1913,
+        "median": 6.1837,
+        "n": 10,
+        "p95": 6.2239,
+        "std": 0.023
+      },
+      "emergency_pdr_pct": {
+        "mean": 98.3371,
+        "median": 98.402,
+        "n": 10,
+        "p95": 99.0123,
+        "std": 0.5373
+      },
+      "normal_msg_per_s": {
+        "mean": 3.7563,
+        "median": 3.7554,
+        "n": 10,
+        "p95": 3.7693,
+        "std": 0.0088
+      },
+      "packets_per_min": {
+        "mean": 7888.2,
+        "median": 7886.4,
+        "n": 10,
+        "p95": 7915.59,
+        "std": 18.394
+      },
+      "pdr_pct": {
+        "mean": 98.0176,
+        "median": 98.0004,
+        "n": 10,
+        "p95": 98.1503,
+        "std": 0.0795
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5112,
+        "median": 5.5108,
+        "n": 10,
+        "p95": 5.5136,
+        "std": 0.0018
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1954,
+        "median": 6.197,
+        "n": 10,
+        "p95": 6.1988,
+        "std": 0.003
+      }
+    },
+    "N35_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1605,
+        "median": 6.164,
+        "n": 10,
+        "p95": 6.2298,
+        "std": 0.0565
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.6956,
+        "median": 97.625,
+        "n": 10,
+        "p95": 99.1765,
+        "std": 1.4256
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 21000.0,
+        "median": 21000.0,
+        "n": 10,
+        "p95": 21000.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 98.0059,
+        "median": 98.0129,
+        "n": 10,
+        "p95": 98.0323,
+        "std": 0.0228
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5125,
+        "median": 5.5127,
+        "n": 10,
+        "p95": 5.5139,
+        "std": 0.0012
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1964,
+        "median": 6.1972,
+        "n": 10,
+        "p95": 6.1994,
+        "std": 0.0025
+      }
+    },
+    "N50_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1842,
+        "median": 6.1812,
+        "n": 10,
+        "p95": 6.229,
+        "std": 0.034
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.898,
+        "median": 97.9479,
+        "n": 10,
+        "p95": 98.5903,
+        "std": 0.5022
+      },
+      "normal_msg_per_s": {
+        "mean": 2.8942,
+        "median": 2.8924,
+        "n": 10,
+        "p95": 2.9052,
+        "std": 0.0067
+      },
+      "packets_per_min": {
+        "mean": 8682.58,
+        "median": 8677.2,
+        "n": 10,
+        "p95": 8715.63,
+        "std": 20.1403
+      },
+      "pdr_pct": {
+        "mean": 98.0157,
+        "median": 97.9896,
+        "n": 10,
+        "p95": 98.1263,
+        "std": 0.0895
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5117,
+        "median": 5.5126,
+        "n": 10,
+        "p95": 5.5145,
+        "std": 0.0025
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1956,
+        "median": 6.1953,
+        "n": 10,
+        "p95": 6.2002,
+        "std": 0.003
+      }
+    },
+    "N50_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1749,
+        "median": 6.1726,
+        "n": 10,
+        "p95": 6.2222,
+        "std": 0.0361
+      },
+      "emergency_pdr_pct": {
+        "mean": 98.1163,
+        "median": 98.1966,
+        "n": 10,
+        "p95": 99.05,
+        "std": 0.784
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 30000.0,
+        "median": 30000.0,
+        "n": 10,
+        "p95": 30000.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 97.9957,
+        "median": 97.992,
+        "n": 10,
+        "p95": 98.0537,
+        "std": 0.0412
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5124,
+        "median": 5.5124,
+        "n": 10,
+        "p95": 5.5131,
+        "std": 0.0006
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1953,
+        "median": 6.195,
+        "n": 10,
+        "p95": 6.1967,
+        "std": 0.0009
+      }
+    },
+    "N5_adaptive": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.1828,
+        "median": 6.193,
+        "n": 10,
+        "p95": 6.2174,
+        "std": 0.034
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.9835,
+        "median": 98.0669,
+        "n": 10,
+        "p95": 98.8883,
+        "std": 0.7539
+      },
+      "normal_msg_per_s": {
+        "mean": 8.5453,
+        "median": 8.559,
+        "n": 10,
+        "p95": 8.5951,
+        "std": 0.0435
+      },
+      "packets_per_min": {
+        "mean": 2563.6,
+        "median": 2567.7,
+        "n": 10,
+        "p95": 2578.54,
+        "std": 13.0415
+      },
+      "pdr_pct": {
+        "mean": 97.9723,
+        "median": 97.9659,
+        "n": 10,
+        "p95": 98.0996,
+        "std": 0.0887
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5134,
+        "median": 5.5128,
+        "n": 10,
+        "p95": 5.5184,
+        "std": 0.0034
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1929,
+        "median": 6.1926,
+        "n": 10,
+        "p95": 6.1992,
+        "std": 0.0049
+      }
+    },
+    "N5_fixed": {
+      "emergency_p95_rtt_ms": {
+        "mean": 6.2119,
+        "median": 6.2113,
+        "n": 10,
+        "p95": 6.2491,
+        "std": 0.0259
+      },
+      "emergency_pdr_pct": {
+        "mean": 97.8125,
+        "median": 97.9286,
+        "n": 10,
+        "p95": 98.6094,
+        "std": 0.7289
+      },
+      "normal_msg_per_s": {
+        "mean": 10.0,
+        "median": 10.0,
+        "n": 10,
+        "p95": 10.0,
+        "std": 0.0
+      },
+      "packets_per_min": {
+        "mean": 3000.0,
+        "median": 3000.0,
+        "n": 10,
+        "p95": 3000.0,
+        "std": 0.0
+      },
+      "pdr_pct": {
+        "mean": 98.012,
+        "median": 97.9867,
+        "n": 10,
+        "p95": 98.2053,
+        "std": 0.1261
+      },
+      "rtt_mean_ms": {
+        "mean": 5.5119,
+        "median": 5.5116,
+        "n": 10,
+        "p95": 5.5164,
+        "std": 0.0033
+      },
+      "rtt_p95_ms": {
+        "mean": 6.1935,
+        "median": 6.1936,
+        "n": 10,
+        "p95": 6.1999,
+        "std": 0.004
+      }
+    }
+  }
+}
